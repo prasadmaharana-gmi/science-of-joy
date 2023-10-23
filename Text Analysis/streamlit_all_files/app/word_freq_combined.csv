@@ -1,0 +1,520 @@
+product_code,like_compound,liking_free_text_no_punc_tokenized_no_stop_lemm,question
+Chobani Original,0.7579,"['like', 'taste', 'like', 'creamy', 'like', 'chunk', 'strawberry']",Liking
+Chobani Smooth,0.6249,"['great', 'consistency', 'live', 'smooth', 'name']",Liking
+Chobani Original,0.6908,"['enjoy', 'flavor', 'yogurt', 'tart', 'also', 'like', 'amount', 'fruit', 'bottom']",Liking
+Chobani Smooth,-0.6597,"['smooth', 'creamy', 'seed', 'taste', 'like', 'strawberry', 'ice', 'cream', 'bad', 'aftertaste']",Liking
+Chobani Original,0.3612,"['sour', 'taste', 'like', 'greek', 'yogurt']",Liking
+Chobani Smooth,0,"['creamy', 'bit', 'strawberry', 'add', 'flavor']",Liking
+Chobani Original,0.8516,"['like', 'creaminess', 'texture', 'pleasant', 'aftertaste', 'really', 'enjoy', 'thickness', 'chobani', 'greek', 'yogurt']",Liking
+Chobani Smooth,0.9181,"['smooth', 'great', 'taste', 'thats', 'balance', 'sweet', 'tangy', 'like', 'taste', 'like', 'greek', 'yogurt', 'regular', 'yogurt']",Liking
+Chobani Original,0.6808,"['like', 'strawberry', 'flavor', 'creamy', 'greek', 'style', 'consistency', 'also', 'like', 'nutritional', 'info']",Liking
+Chobani Smooth,0.9485,"['nice', 'pink', 'color', 'pleasant', 'strawberry', 'smell', 'enjoy', 'smooth', 'texture', 'good', 'aftertaste', 'amount', 'sweetness', 'right', 'well']",Liking
+Chobani Original,0.9042,"['good', 'amount', 'real', 'fruit', 'mixed', 'yogurt', 'right', 'amount', 'sweetness', 'like', 'thickness', 'texture', 'sample', 'pleasant', 'aftertaste']",Liking
+Chobani Smooth,0,"['smooth', 'without', 'chunk']",Liking
+Chobani Original,0.8906,"['healthy', 'package', 'option', 'get', 'protein', 'sweet', 'terribly', 'sugary', 'taste', 'design', 'package', 'easy', 'hold']",Liking
+Chobani Smooth,0.4404,"['smooth', 'creamy', 'texture', 'good', 'flavor']",Liking
+Chobani Original,-0.5106,"['creamy', 'smooth', 'filling', 'ample', 'chunk', 'strawberry', 'real', 'fruit', 'taste', 'low', 'caleries', '12', 'g', 'protein']",Liking
+Chobani Smooth,0.6486,"['like', 'flavor', 'yogurt', 'nice', 'strawberry', 'taste', 'creamy', 'smooth']",Liking
+Chobani Original,0.5106,"['thick', 'creamy', 'consistency', 'strong', 'flavor']",Liking
+Chobani Smooth,0,"['creaminess', 'smoothness']",Liking
+Chobani Original,0.5095,"['satisfy', 'smooth', 'creamy']",Liking
+Chobani Smooth,0.8458,"['yogurt', 'creamy', 'strawberry', 'taste', 'tart', 'sweet', 'present', 'product', 'chunk', 'fruit', 'nice', 'right', 'amount']",Liking
+Chobani Original,0.6705,"['packaging', 'nice', 'clearly', 'state', 'inside', 'greek', 'yogurt', 'strawberry', 'bottom']",Liking
+Chobani Smooth,0.4939,"['level', 'sweetness', 'sugary']",Liking
+Chobani Original,0.0823,"['creamy', 'nice', 'strawberry', 'flavor', 'sweet']",Liking
+Chobani Smooth,0.4215,"['like', 'yogurt', 'protein', 'regular', 'yogurt']",Liking
+Chobani Original,-0.357,"['sweet', 'small', 'glob', 'make', 'seem', 'richcreamythick', 'like', 'cottage', 'cheese']",Liking
+Chobani Smooth,0,"['thinness', 'yogurt', 'smoothness']",Liking
+Chobani Original,0,"['strawberry', 'flavor', 'fruit', 'piece']",Liking
+Chobani Smooth,0.5574,"['creamy', 'rich']",Liking
+Chobani Original,0.4404,"['creamy', 'texture', 'strawberry', 'flavor', 'good']",Liking
+Chobani Smooth,0,"['extra', 'creamy', 'consistency']",Liking
+Chobani Original,0.8402,"['like', 'thickness', 'taste', 'texture', 'strawberry', 'chunk', 'strawberry', 'flavor', 'like', 'lot', 'protein', '100', 'calorie', 'also', 'like', 'natural', 'color', 'artificially', 'dye']",Liking
+Chobani Smooth,0.4404,"['price', 'le', 'sugar', 'protein', 'strawberry', 'flavor', 'would', 'want', 'eat', 'another', 'one', 'right', 'flavor', 'good']",Liking
+Chobani Original,0,"['smooth', 'creamy', 'texture']",Liking
+Chobani Smooth,0.3612,"['like', 'smooth', 'texture', 'even', 'flavor', 'throughout']",Liking
+Chobani Original,0.4754,"['really', 'liked', 'thickness', 'felt', 'heavy', 'solid']",Liking
+Chobani Smooth,0.4939,"['smoothness', 'right', 'amount', 'sweetness']",Liking
+Chobani Original,0.9244,"['nutrition', 'label', 'one', 'top', 'reason', 'like', 'yogurt', 'love', 'fat', 'free', 'look', 'first', 'page', 'think', 'variety', 'appeal', 'flavor', 'choose', 'taste', 'texture', 'pretty', 'good', 'could', 'smoother', 'stir', 'mine', 'quite', 'bit', 'still', 'small', 'chunk', 'yogurt', 'however', 'really', 'liked', 'size', 'taste', 'strawberry']",Liking
+Chobani Smooth,0.6808,"['like', 'strawberry', 'flavor', 'fruit', 'piecesit', 'smooth', 'nice', 'taste']",Liking
+Chobani Original,0.9393,"['like', 'thickness', 'yogurt', 'taste', 'greek', 'yogurt', 'sour', 'sweet', 'good', 'balance', 'strawberry', 'yogurt', 'like', 'find', 'chunk', 'strawberry', 'like', 'package', 'unique', 'easy', 'find', 'yogurt', 'section', 'store']",Liking
+Chobani Smooth,0.8126,"['liked', 'creaminess', 'product', 'also', 'like', 'nice', 'subtle', 'flavor']",Liking
+Chobani Original,0.8461,"['thick', 'creamy', 'consistency', 'thickness', 'make', 'seem', 'like', 'dessert', 'natural', 'ingredient', 'good', 'strawberry', 'flavor', 'growth', 'hormone']",Liking
+Chobani Smooth,0.7717,"['love', 'smooth', 'texture', 'overall', 'taste', 'texture', 'feel', 'like', 'extremely', 'whip', 'like', 'whip', 'cream', 'provide', 'different', 'type', 'texture', 'traditional', 'yogurt', 'opinion', 'typical', 'yogurt', 'whip', 'version', 'yogurt', 'typical', 'yogurt', 'tend', 'separate', 'whip']",Liking
+Chobani Original,0.9779,"['like', 'strawberry', 'taste', 'think', 'good', 'amount', 'sweetness', 'sweetit', 'good', 'amount', 'tartness', 'like', 'good', 'amount', 'protein', 'like', 'serve', 'size', 'perfect', 'amount', 'snack']",Liking
+Chobani Smooth,0.7964,"['taste', 'great', 'sweet', 'smooth']",Liking
+Chobani Original,0.1078,"['product', 'sweet', 'thicker', 'taste', 'thick', 'good', 'flavor', 'overall', 'something', 'would', 'eat']",Liking
+Chobani Smooth,0.6273,"['like', 'smooth', 'creamy', 'texture', 'awesome', 'taste', 'sweet']",Liking
+Chobani Original,0.4404,"['lot', 'fruit', 'cup', 'good', 'flavor', 'filling']",Liking
+Chobani Smooth,0,['creamy'],Liking
+Chobani Original,0,"['mixture', 'fruit', 'piece', 'yogurt', '120', 'calorie']",Liking
+Chobani Smooth,0.5859,"['taste', 'like', 'fresh', 'fruit', 'filling']",Liking
+Chobani Original,0,"['texture', 'protein', 'content', 'consistency', 'real', 'fruit', 'amount', 'fullness']",Liking
+Chobani Smooth,0.1331,"['liked', 'texture', 'smooth', 'creamy', 'like', 'wasnt', 'sweet', 'clean', 'taste', 'artificial', 'unpleasant', 'aftertaste']",Liking
+Chobani Original,0.8316,"['think', 'actual', 'yogurt', 'good', 'creamy', 'smooth', 'fill', 'like', 'expect', 'greek', 'yogurt', 'package', 'eye', 'pleasing']",Liking
+Chobani Smooth,0.6124,"['smooth', 'creamy', 'less', 'sugar', 'high', 'protein', 'regular', 'yogurt', 'however', 'still', 'opt', 'greek', 'yogurt', 'bit', 'high', 'protein', 'like', 'nongmo', 'price', 'reasonable', 'like', 'fruit', 'blend']",Liking
+Chobani Original,0.4404,"['thick', 'creamy', 'real', 'strawberry', 'give', 'good', 'flavor', 'plus', 'chunks', 'berry', '5', 'gram', 'live', 'culture', '12', 'g', 'protein']",Liking
+Chobani Smooth,-0.296,"['color', 'consistency', 'big', 'chunk', 'fruit']",Liking
+Chobani Original,0.9422,"['lovely', 'thickness', 'product', 'really', 'liked', 'consistency', 'weight', 'felt', 'like', 'substantial', 'treat', 'fruit', 'flavor', 'add', 'pops', 'interest']",Liking
+Chobani Smooth,0,"['texture', 'flavor', 'fruit', 'bottom']",Liking
+Chobani Original,0.3612,"['like', 'creamy', 'big', 'piece', 'fruit']",Liking
+Chobani Smooth,0.8074,"['smooth', 'creamy', 'right', 'amount', 'sweetness', 'overall', 'great', 'flavor']",Liking
+Chobani Original,0,['creamy'],Liking
+Chobani Smooth,0.6588,"['taste', 'great']",Liking
+Chobani Original,0.7003,"['piece', 'fruit', 'perfect', 'size', 'big', 'blend', 'well', 'yogurt']",Liking
+Chobani Smooth,0,"['creaminess', 'little', 'tang']",Liking
+Chobani Original,0.4404,"['nongmo', 'live', 'culture', 'robiotics', 'good', 'digestion', 'health', 'make', 'wreal', 'fruit', 'cane', 'sugar', 'taste', 'texture']",Liking
+Chobani Smooth,0,"['texture', 'flavor']",Liking
+Chobani Original,0.7159,"['taste', 'creaminess', 'good', 'like', 'little', 'chunk', 'strawberry', 'could', 'really', 'tell', 'berry', 'yogurt']",Liking
+Chobani Smooth,-0.4973,"['creamy', 'flavorful', 'edge', 'sweet', 'fruity', 'smell', 'taste', 'bit', 'tangy', 'affordable']",Liking
+Chobani Original,0.6249,"['thickness', 'great', 'fruit', 'flavor']",Liking
+Chobani Smooth,0.3612,"['like', 'packaging']",Liking
+Chobani Original,0.4404,"['good', 'flavor', 'smooth']",Liking
+Chobani Smooth,0.9081,"['like', 'overall', 'strawberry', 'flavor', 'already', 'mixed', 'versus', 'fruit', 'bottom', 'stir', 'also', 'like', 'smooth', 'creamy', 'light', 'flavorful', 'filling', 'would', 'make', 'great', 'addition', 'meal', 'healthy', 'snack']",Liking
+Chobani Original,0,"['amount', 'protein', 'lot', 'flavor']",Liking
+Chobani Smooth,0.4767,"['like', 'flavor', 'taste', 'texture', 'nice', 'smooth']",Liking
+Chobani Original,0.6597,"['good', 'flavor', 'like', 'fruit', 'chunk']",Liking
+Chobani Smooth,0.4404,"['texture', 'color', 'look', 'good']",Liking
+Chobani Original,0.4404,"['flavor', 'good']",Liking
+Chobani Smooth,0.765,"['strawberry', 'flavor', 'good', 'also', 'tangyness', 'greek', 'yogurt', 'perfect']",Liking
+Chobani Original,0.7783,"['taste', 'like', 'actual', 'strawberry', 'unnaturally', 'pink', 'sweet', 'enough', 'yogurt', 'easy', 'get', 'there', 'lip', 'container', 'scoop']",Liking
+Chobani Smooth,-0.3353,"['smooth', 'low', 'fat', 'small', 'chunk', 'strawberry']",Liking
+Chobani Original,-0.357,"['thick', 'creamy', 'sweet', 'slight', 'tang', 'fruit', 'bottom', 'piece', 'fruit', 'container', 'big', 'enough', 'mix', 'fruit', 'yoghurt']",Liking
+Chobani Smooth,0.8906,"['liked', 'texture', 'smooth', 'chunk', 'also', 'like', 'color', 'product', 'coloring', 'seem', 'natural', 'price', 'product', 'good']",Liking
+Chobani Original,0,"['texture', 'yogurt']",Liking
+Chobani Smooth,0.4939,"['smooth', 'creamy', 'texture', 'flavor', 'sweet', 'sweet', 'overpowering']",Liking
+Chobani Original,0.4404,"['thick', 'creamy', 'good', 'flavor']",Liking
+Chobani Smooth,0,"['smooth', 'tasty']",Liking
+Chobani Original,0.2732,"['thick', 'creamy', 'texture', 'pleasant', 'flavor', 'taste']",Liking
+Chobani Smooth,0.8151,"['smooth', 'creamy', 'lowfat', 'usually', 'funny', 'taste', 'product', 'packaging', 'appeal', 'like', 'word', 'smooth', 'highlight', 'like', 'cost', '2', '175']",Liking
+Chobani Original,0.4939,"['flavor', 'yogurt', 'something', 'enjoy', 'texture', 'yogurt', 'smooth']",Liking
+Chobani Smooth,0.4442,"['good', 'flavor', 'sweet', 'smooth', 'texture', 'like', 'state', 'package', 'often', 'nongreek', 'yogurt', 'taste', 'sugary', 'one']",Liking
+Chobani Original,0.4215,"['like', 'flavor', 'yougart', 'mix', 'stuff', 'packaging', 'product']",Liking
+Chobani Smooth,0,['smooth'],Liking
+Chobani Original,0,"['chunk', 'strawberry']",Liking
+Chobani Smooth,0,"['creamy', 'chunk', 'real', 'fruit', '11', 'gram', 'protein']",Liking
+Chobani Original,0.4404,"['flavor', 'good', 'texture', 'creamy']",Liking
+Chobani Smooth,0.6533,"['really', 'taste', 'like', 'fresh', 'strawberry', 'lot', 'piece', 'fruit', 'chalky']",Liking
+Chobani Original,0.7579,"['strawberry', 'flavor', 'perfect', 'like', 'thick', 'consistency']",Liking
+Chobani Smooth,0.8176,"['love', 'strong', 'taste', 'flavor']",Liking
+Chobani Original,0.6369,"['love', 'texture', 'flavor', 'yogurt']",Liking
+Chobani Smooth,0.4404,"['creamy', 'texture', 'good', 'portion', 'size']",Liking
+Chobani Original,0.4927,"['taste', 'really', 'good', 'heavy', 'strawberry', 'taste', 'enough']",Liking
+Chobani Smooth,0.34,"['smooth', 'creamy', 'easily', 'blend', 'able', 'mixing', 'fruit', 'yogurt', 'part']",Liking
+Chobani Original,0.4939,"['enjoy', 'fruit', 'bottom', 'overall', 'taste', 'creamy', 'smooth']",Liking
+Chobani Smooth,0,"['strawberry', 'flavor', 'deep', 'ii', 'also', 'texture', 'thick', 'thick']",Liking
+Chobani Original,0.7003,"['good', 'flavor', 'good', 'texture', 'yogurt']",Liking
+Chobani Smooth,0.796,"['like', 'taste', 'smooth', 'creamy', 'taste', 'really', 'nice', 'also', 'like', 'thicknessdensity']",Liking
+Chobani Original,0.6705,"['like', 'strawberry', 'flavor', 'right', 'amount', 'sweet', 'flavor', 'creamy']",Liking
+Chobani Smooth,0.6597,"['natural', 'good', 'flavor', 'smooth', 'creamy']",Liking
+Chobani Original,0,['taste'],Liking
+Chobani Smooth,0.7506,"['flavor', 'pretty', 'good', 'like', 'high', 'protein', 'lower', 'fat', 'sugar', 'regular', 'greek', 'yogurt']",Liking
+Chobani Original,0.4404,"['yogurt', 'thick', 'fruit', 'flavor', 'good']",Liking
+Chobani Smooth,0.7783,"['like', 'creamy', 'taste', 'consistent', 'throughout', 'product', 'like', 'wasnt', 'spot', 'taste', 'like', 'bland', 'yogurt']",Liking
+Chobani Original,0.7264,"['like', 'strawberry', 'flavor', 'sweet', 'tartcreamy']",Liking
+Chobani Smooth,0,"['thickness', 'yogurt', 'taste']",Liking
+Chobani Original,-0.4215,"['good', 'flavor', 'creamy', 'aftertaste', 'bad']",Liking
+Chobani Smooth,0.4404,"['creamy', 'texture', 'good', 'tast']",Liking
+Chobani Original,0.7845,"['smooth', 'taste', 'like', 'natural', 'strawberry', 'flavor', 'also', 'good', 'aftertaste']",Liking
+Chobani Smooth,0.4215,"['liked', 'thickness', 'flavor']",Liking
+Chobani Original,0.1695,"['didnt', 'leave', 'weird', 'taste', 'mouth', 'wasnt', 'tart']",Liking
+Chobani Smooth,0.9203,"['smooth', 'texture', 'powdery', 'clumpy', 'like', 'natural', 'color', 'like', 'isnt', 'fruit', 'bottom', 'fruit', 'piece', 'dont', 'mix', 'eat', 'iti', 'eat', 'sweet', 'ideal', 'strawberry', 'flavor', 'thick', 'feel', 'like', 'im', 'eat', 'greek', 'yogurt', 'price', 'good', 'deal']",Liking
+Chobani Smooth,0,['creamy'],Liking
+Chobani Smooth,0.3612,"['like', 'flavor', 'smoothness']",Liking
+Chobani Smooth,0.6444,"['package', 'appeal', 'taste', 'pretty', 'good', 'low', 'fat']",Liking
+Chobani Smooth,0,"['wide', 'container', 'cup', 'design', 'real', 'fruit', 'piece', 'texture', '25', 'less', 'sugar', '2x', 'protein', 'advertise', 'product', 'chobani', 'smooth', 'lowfat', 'classic', 'yogurt', 'description']",Liking
+Chobani Smooth,0,"['creamy', 'texture', 'strawberry', 'flavor']",Liking
+Chobani Smooth,0,"['flavor', 'consistancy']",Liking
+Chobani Smooth,0,"['creamy', 'smooth']",Liking
+Chobani Smooth,0,"['creaminess', 'yogurt']",Liking
+Chobani Smooth,0.4215,"['nice', 'smooth', 'thick', 'texture']",Liking
+Chobani Smooth,0,"['smooth', 'creamy']",Liking
+Chobani Smooth,0.7906,"['great', 'flavor', 'smooth', 'easy', 'eat']",Liking
+Chobani Smooth,0.7964,"['liked', 'shape', 'bowlcontainer', 'easy', 'eat', 'felt', 'like', 'yogurt', 'yoplait', 'usually']",Liking
+Chobani Smooth,0,"['right', 'amount', 'strawberry', 'flavor']",Liking
+Chobani Smooth,0.6597,"['perfect', 'size', 'snack', 'also', 'easy', 'use', 'container', 'child', 'refill', 'little', 'one', 'spill']",Liking
+Chobani Smooth,-0.357,"['wasnt', 'overly', 'sweet', 'light', 'texture']",Liking
+Chobani Smooth,0.8148,"['smooth', 'great', 'taste', 'love', 'tartness', 'little', 'subtle', 'definitely']",Liking
+Chobani Smooth,0,['flavor'],Liking
+Chobani Smooth,0,"['texture', 'taste']",Liking
+Chobani Smooth,0,"['creamy', 'texture']",Liking
+Chobani Smooth,0.4404,"['smooth', 'texture', 'good']",Liking
+Chobani Smooth,0,"['taste', 'smoothness']",Liking
+Chobani Smooth,0.4404,"['texture', 'smooth', 'flavorful', 'strawberry', 'good']",Liking
+Chobani Smooth,0.4404,"['good', 'taste', 'smooth', 'consistency', 'tart']",Liking
+Chobani Smooth,0.8225,"['taste', 'pretty', 'good', 'like', 'strawberry']",Liking
+Chobani Smooth,0.4404,"['smooth', 'texture', 'good', 'strawberry', 'taste']",Liking
+Chobani Smooth,0.4404,"['smooth', 'creamy', 'good', 'strawberry', 'flavor']",Liking
+Chobani Smooth,0.1901,"['taste', 'like', 'greek', 'yogurt', 'wasnt', 'wasnt', 'quite', 'thick', 'greek', 'yogurt']",Liking
+Chobani Smooth,0,"['lot', 'strawberry', 'flavor', 'tart']",Liking
+Chobani Smooth,0.4404,"['good', 'taste', 'bland']",Liking
+Chobani Smooth,0,['creaminess'],Liking
+Chobani Smooth,0,['name'],Liking
+Chobani Smooth,0,"['creamy', 'texture']",Liking
+Chobani Smooth,0,"['texture', 'taste']",Liking
+Chobani Smooth,0,"['creamylots', 'fruit']",Liking
+Chobani Smooth,0.3612,"['mostly', 'smooth', 'get', '2', 'small', 'chunk', 'like', '11', 'gm', 'protein', 'lowfat']",Liking
+Chobani Smooth,0,['lumpy'],Liking
+Chobani Smooth,0.6249,"['product', 'creamy', 'great', 'color']",Liking
+Chobani Smooth,0,['creamy'],Liking
+Chobani Smooth,0.4404,"['good', 'strawberry', 'flavor']",Liking
+Chobani Smooth,0.4201,"['really', 'like', 'smooth', 'creamy']",Liking
+Chobani Smooth,0,"['smell', 'color']",Liking
+Chobani Smooth,0.1811,"['think', 'taste', 'good', 'sweet']",Liking
+Chobani Smooth,0.6486,"['nice', 'flavor', 'like', 'smooth', 'texture', 'creamy']",Liking
+Chobani Smooth,0,['tasty'],Liking
+Chobani Smooth,0.7003,"['attractive', 'packaging', 'easy', 'open', 'container']",Liking
+Chobani Smooth,0.4215,"['like', 'creamy', 'smoothnessthick', 'without', 'pasty']",Liking
+Chobani Smooth,0,"['smoothness', 'texture']",Liking
+Chobani Smooth,0.1078,"['good', 'fruit', 'flavor', 'wasnt', 'overly', 'sweet']",Liking
+Chobani Smooth,0.4703,"['texture', 'creamy', 'nice', 'strawberry', 'flavor']",Liking
+Chobani Smooth,-0.1531,"['great', 'taste', 'chunk', 'strawberry', 'smooth', 'texture', 'bad', 'taste']",Liking
+Chobani Smooth,0.4215,"['like', 'strawberry', 'flavor', 'little', 'tiny', 'chunk', 'strawberry']",Liking
+Chobani Smooth,0.4404,"['good', 'amount', 'strawberry', 'flavor', 'creamy', 'smooth']",Liking
+Chobani Smooth,0,"['creaminess', 'smoothness']",Liking
+Chobani Original,0,"['thought', 'would', 'big', 'chunk', 'fruit', 'since', 'say', 'fruit', 'bottom', 'mainly', 'juice', 'small', 'piece', 'fruit', 'bottom']",Meets Expectation
+Chobani Smooth,0,['none'],Meets Expectation
+Chobani Original,0.3612,"['think', 'packaging', 'show', 'everything', 'yogurt', 'encompasses', 'like', 'letter', 'tell', 'fruit', 'bottom']",Meets Expectation
+Chobani Smooth,-0.071,"['say', 'low', 'fat', 'didnt', 'taste', 'like', 'low', 'fat', 'impress', 'taste']",Meets Expectation
+Chobani Original,0.3612,"['120', 'calorie', 'nonfat', 'yogurt', 'seem', 'like', 'lot', 'word', 'small', 'container', 'couldnt', 'read', 'itunder', 'picture', 'say', 'keep', 'real']",Meets Expectation
+Chobani Smooth,-0.4404,"['content', 'label', 'difficult', 'read', 'hard', 'find']",Meets Expectation
+Chobani Original,0.6969,"['average', 'price', 'higher', 'expect', '020', 'packaging', 'isnt', 'much', 'different', 'regular', 'chobani', 'yogurt', 'maybe', 'help', 'stand', 'product', 'fruit', 'bottom', 'would', 'helpful']",Meets Expectation
+Chobani Smooth,0.5023,"['package', 'say', 'regular', 'yogurt', 'taste', 'like', 'greek', 'yogurt']",Meets Expectation
+Chobani Original,0,"['try', 'communicate', 'yogurt', 'greek', 'style', 'creamy']",Meets Expectation
+Chobani Smooth,0.7684,"['say', 'real', 'fruit', 'find', 'none', 'unexpected', 'less', 'sugar', 'much', 'sweetness', 'im', 'also', 'surprise', 'protein']",Meets Expectation
+Chobani Original,0,['nan'],Meets Expectation
+Chobani Smooth,-0.1027,"['waterythere', 'much', 'label', 'make', 'hard', 'really', 'see', 'make', 'different', 'yogurt', 'shelf']",Meets Expectation
+Chobani Original,0,['nothing'],Meets Expectation
+Chobani Smooth,0.4692,"['fruit', 'bite', 'unexpected', 'since', 'information', 'side', 'container', 'easy', 'see', 'think', 'fruit', 'bite', 'front', 'container', 'side', 'easily', 'visible', 'would', 'nice', 'nutrition', 'fact', 'container']",Meets Expectation
+Chobani Original,0,['protein'],Meets Expectation
+Chobani Smooth,0.6222,"['usually', 'eat', 'greek', 'yogurt', 'surprise', 'similar', 'protein', 'package', 'good', 'job', 'describe', 'product']",Meets Expectation
+Chobani Original,0.3818,"['healthful', 'benefit', 'greek', 'yogurt', 'calorie']",Meets Expectation
+Chobani Smooth,0.75,"['surprise', 'nowhere', 'package', 'say', 'stir', 'consume', 'get', 'best', 'experience']",Meets Expectation
+Chobani Original,0,"['nothing', 'unexpected']",Meets Expectation
+Chobani Smooth,0,['nan'],Meets Expectation
+Chobani Original,0,"['dont', 'think', 'need', 'say', '0', 'milkfat', 'non', 'fat', 'yogurt', 'front', 'packaging', 'thing']",Meets Expectation
+Chobani Smooth,0,"['say', 'full', 'real', 'fruit', 'expect', 'fruit', 'chunk']",Meets Expectation
+Chobani Original,-0.2222,"['nothing', 'straight', 'forward']",Meets Expectation
+Chobani Smooth,0.2263,"['surprised', 'wasnt', 'ingredient', 'list', 'nutrition', 'label', 'actual', 'cup', 'yogurt']",Meets Expectation
+Chobani Original,0.6124,"['part', 'almost', 'gelatin', 'taste', 'enough', 'flavor', 'restate', 'non', 'fat0', 'milk', 'fat', 'make', 'real', 'fruit', 'felt', 'like', 'convey', 'high', 'quantity', 'fruit', 'contain', 'preserve', 'make', 'sound', 'like', 'something', 'artificial', 'preserve', 'eat']",Meets Expectation
+Chobani Smooth,0.8429,"['expect', 'thinness', 'yogurt', 'taste', 'sweet', 'would', 'like', 'nutritional', 'value', 'label', 'package', 'include', 'calorie', 'count']",Meets Expectation
+Chobani Original,0.2551,"['little', 'sournot', 'sure', 'would', 'communicate', 'package']",Meets Expectation
+Chobani Smooth,0.0918,"['change', 'packaging', 'although', 'didnt', 'know', 'chobani', 'make', 'nongreek', 'yogurt', 'see', 'packaging', 'say', 'classic', 'initially', 'missed', 'sure', 'would', 'recommend', 'change', 'increase', 'awareness']",Meets Expectation
+Chobani Original,0,"['nothing', 'really', 'expect']",Meets Expectation
+Chobani Smooth,0.659,"['nothing', 'package', 'clear', 'say', 'would', 'like', 'thicker', 'prefer', 'yougurts', 'thin', 'texure', 'even', 'greek']",Meets Expectation
+Chobani Original,0.8519,"['yogurt', 'know', 'expect', 'pay', 'closer', 'attention', 'time', 'taste', 'even', 'well', 'strong', 'strawberry', 'flavor']",Meets Expectation
+Chobani Smooth,0.3612,"['would', 'like', 'nutrition', 'information', 'container']",Meets Expectation
+Chobani Original,-0.3415,"['amount', 'fruit', 'bottom', 'little', 'misleading', 'need', 'fruit']",Meets Expectation
+Chobani Smooth,0,"['expect', 'fruit', 'chunk', 'suppose', 'smooth']",Meets Expectation
+Chobani Original,0,"['word', 'greek', 'biggerbolder', 'stand', 'picture', 'strawberry', 'small']",Meets Expectation
+Chobani Smooth,0.4215,"['much', 'strawberry', 'flavor', 'intention', 'maybe', 'describe', 'strawberry', 'kiss', 'something']",Meets Expectation
+Chobani Original,0.1326,"['thing', 'find', 'confuse', 'outside', 'package', 'label', 'state', 'strawberry', 'bottom', 'give', 'impression', 'yogurt', 'would', 'sit', 'strawberry', 'consumer', 'would', 'mix', 'together', 'however', 'open', 'yogurt', 'without', 'shake', 'yogurt', 'strawberry', 'already', 'mixed', 'together', 'salmon', 'color', 'therefore', 'aspect', 'product', 'misguiding']",Meets Expectation
+Chobani Smooth,-0.1282,"['surprised', 'yogurt', 'wasnt', 'greek', 'yogurt', 'packaging', 'wasnt', 'totally', 'clear', 'associate', 'chobani', 'greek', 'yogurt']",Meets Expectation
+Chobani Original,0,"['nothing', 'unexpected', 'yogurt', 'commonly', 'buy']",Meets Expectation
+Chobani Smooth,0.0772,"['surprised', 'amount', 'creaminess', 'also', 'limit', 'number', 'chunk', 'fruit']",Meets Expectation
+Chobani Original,0.4404,"['nothing', 'information', 'need', 'information', 'easy', 'find']",Meets Expectation
+Chobani Smooth,0.6249,"['current', 'package', 'great', 'job', 'convey', 'message', 'yogurt', 'type']",Meets Expectation
+Chobani Original,0.1045,"['buy', 'usually', 'get', 'chobani', 'already', 'blend', 'change', 'study', 'like', 'flavor', 'yogurt', 'fruit', 'bottom', 'wasnt', 'chunky', 'expect', 'chunky', 'fruit', 'really', 'cut', 'tartness', 'much', 'plain', 'greek', 'yogurt', 'overall', 'tastier', 'expect']",Meets Expectation
+Chobani Smooth,0.63,"['smooth', 'label', 'make', 'think', 'consistency', 'would', 'bite', 'thicker', 'creamy', 'still', 'good']",Meets Expectation
+Chobani Original,0,['nan'],Meets Expectation
+Chobani Smooth,0,"['yogurt', 'smoother', 'creamier', 'expect', 'packaging', 'represent', 'product']",Meets Expectation
+Chobani Original,0,"['nothing', 'think', 'package', 'suit', 'product']",Meets Expectation
+Chobani Smooth,0,"['thought', 'would', 'piece', 'fruit', 'thereeven', 'though', 'say', 'smootheit', 'much', 'fruit', 'taste', 'think', 'would', 'change', 'package', 'say', 'flavor', 'fruit']",Meets Expectation
+Chobani Original,0,['nothing'],Meets Expectation
+Chobani Smooth,0,['nothing'],Meets Expectation
+Chobani Original,0.7003,"['emphasize', 'nonfat', 'profit', 'well', 'world']",Meets Expectation
+Chobani Smooth,0.0498,"['package', 'say', 'pure', 'milk', 'real', 'fruit', 'expect', 'fruit', 'piece', 'usually', 'consider', 'blended', 'mean', 'fruit', 'piece', 'even', 'though', 'one', 'say', 'smooth', 'thought', 'would', 'bits', 'real', 'fruit', 'mention', 'package', 'otherwise', 'thought', 'package', 'describe', 'yogurt', 'well']",Meets Expectation
+Chobani Original,-0.0516,"['large', 'freshlooking', 'strawberry', 'package', 'bit', 'misleading', 'look', 'like', 'youre', 'go', 'experience', 'fresher', 'fruit', 'jam', 'actually']",Meets Expectation
+Chobani Smooth,0.631,"['nothing', 'unexpected', 'think', 'wise', 'classic', 'underline', 'first', 'glance', 'think', 'greek', 'yogurtbut', 'assume', 'food', 'aisle', 'may', 'differentiate', 'location', 'would', 'understand']",Meets Expectation
+Chobani Original,0,['nothing'],Meets Expectation
+Chobani Smooth,-0.296,"['big', 'chunk', 'fruit', 'unexpected', 'packaging', 'say', 'nongreek', 'chobani', 'associate', 'greek', 'style', 'yogurt']",Meets Expectation
+Chobani Original,0.8067,"['consistency', 'smooth', 'even', 'yogurt', 'substantial', 'please', 'im', 'go', 'consume', 'something', 'represent', '5', '10', 'daily', 'caloric', 'intake', 'would', 'like', 'feel', 'substantialfilling']",Meets Expectation
+Chobani Smooth,-0.296,"['calorie', 'nutrition', 'information', 'package', 'look', 'right', 'away']",Meets Expectation
+Chobani Original,0,"['long', 'take', 'mix', 'fruit']",Meets Expectation
+Chobani Smooth,0.4404,"['well', 'flavor', 'thought', 'would']",Meets Expectation
+Chobani Original,0,['nothing'],Meets Expectation
+Chobani Smooth,-0.6298,"['well', 'chobani', 'assume', 'greek', 'yogurt', 'thick', 'like', 'greek', 'yogurt', 'throw', 'would', 'also', 'like', 'know', 'sugar', 'reduce', 'sugar', 'substitute', 'see', 'package', 'say', 'natural', 'non', 'gmo', 'id', 'still', 'like', 'see', 'ingredient', 'package', 'also', 'say', 'real', 'fruit', 'id', 'like', 'see', 'fruit']",Meets Expectation
+Chobani Original,-0.296,"['aftertaste', 'usually', 'accompany', 'lot', 'greek', 'yogurt']",Meets Expectation
+Chobani Smooth,0,"['taste', 'greek', 'concentrate', 'thicker', 'expect', 'assume', 'would', 'french', 'yoplait', 'thiner', 'style']",Meets Expectation
+Chobani Original,0.2732,"['less', 'yogurt', 'size', 'container', 'reality', 'false', 'advertising', 'make', 'wonder', 'quality', 'downsize', 'well']",Meets Expectation
+Chobani Smooth,0.7579,"['like', 'product', 'package', 'except', 'seem', 'like', 'product', 'half', 'full', 'also', 'like', 'less', 'strawberry', 'piece']",Meets Expectation
+Chobani Original,0,['nothing'],Meets Expectation
+Chobani Smooth,0.8817,"['look', 'bit', 'like', 'generic', 'brand', 'design', '2x', 'protein', 'less', 'sugar', 'nice', 'surprise', 'non', 'gmo', 'great', 'plus']",Meets Expectation
+Chobani Original,0,['nothing'],Meets Expectation
+Chobani Smooth,0,"['product', 'neither', 'smooth', 'mild', 'container', 'label', 'state']",Meets Expectation
+Chobani Original,-0.1419,"['dint', 'think', 'would', 'like', 'taste', 'much']",Meets Expectation
+Chobani Smooth,0.3612,"['eaten', 'quite', 'bit', 'chobani', 'greek', 'yogurt', 'past', 'expect', 'smooth', 'even', 'though', 'package', 'expressly', 'state', 'smooth', 'like', 'classic', 'yogurt']",Meets Expectation
+Chobani Original,0,['nan'],Meets Expectation
+Chobani Smooth,0,"['thought', 'would', 'thicker']",Meets Expectation
+Chobani Original,0,"['mix', 'eat', 'fruit', 'bottom']",Meets Expectation
+Chobani Smooth,0,"['thought', 'would', 'sweeter']",Meets Expectation
+Chobani Original,0,"['little', 'thinner', 'greek', 'yogurt']",Meets Expectation
+Chobani Smooth,0.4404,"['tangyness', 'unexpected', 'good', 'way', 'package', 'set', 'expectation', 'inside']",Meets Expectation
+Chobani Original,0.4019,"['didnt', 'realize', 'nongmo', 'product', 'dont', 'think', 'ive', 'heard', 'evaporate', 'cane', 'sugar', 'ingredient', 'appreciate', 'slogan', 'punctuate', 'correctly', 'period', 'inside', 'quotation', 'mark', 'believe', 'fruit', 'come', 'piece', 'flavor']",Meets Expectation
+Chobani Smooth,0.6597,"['think', 'good', 'job', 'represent', 'much', 'smoother', 'usually', 'purchase', 'like', 'big', 'state', 'smooth']",Meets Expectation
+Chobani Original,0,"['find', 'anything', 'unexpected']",Meets Expectation
+Chobani Smooth,0,"['overpower', 'taste', 'sour', 'milk', 'really', 'could', 'get', 'past']",Meets Expectation
+Chobani Original,0.3612,"['like', 'picture', 'strawberry', 'tell', 'inside']",Meets Expectation
+Chobani Smooth,0,"['somewhat', 'expect', 'piece', 'fruit', 'even', 'small', 'piece']",Meets Expectation
+Chobani Original,0,"['think', 'maybe', 'sugar', 'content', 'also', 'first', 'open', 'container', 'separation', 'appeal']",Meets Expectation
+Chobani Smooth,0,"['contain', '2x', 'protein']",Meets Expectation
+Chobani Original,0.8172,"['impressed', '15', 'calcium', 'great', 'taste', '0', 'milk', 'fat']",Meets Expectation
+Chobani Smooth,0.4404,"['yogurt', 'aftertaste', 'often', 'common', 'lowfat', 'product', 'package', 'show', 'word', 'lowfat', 'well', 'may', 'make', 'difference', 'many']",Meets Expectation
+Chobani Original,0.4404,"['think', 'package', 'good', 'job', 'represent', 'yogurt']",Meets Expectation
+Chobani Smooth,0.802,"['packaging', 'represent', 'product', 'well', 'found', 'unexpected', 'sweetness', 'good', 'fruit', 'flavor', 'wasnt', 'overpower', 'sugar', 'taste']",Meets Expectation
+Chobani Original,0,"['unexpected', 'amoun', 'small', 'amount', 'yougart', 'actual', 'container', 'would', 'change', 'nothing', 'packaging']",Meets Expectation
+Chobani Smooth,0,"['smooth', 'yogurt']",Meets Expectation
+Chobani Original,-0.2755,"['nothing', 'unexpected', 'like', 'info', 'packaging']",Meets Expectation
+Chobani Smooth,0,"['real', 'chunk', 'strawberry']",Meets Expectation
+Chobani Original,0.4404,"['flavor', 'well', 'remember', 'chobani', 'taste', 'past']",Meets Expectation
+Chobani Smooth,0.5406,"['expect', 'great', 'flavor', 'really', 'stood', 'package', 'really', 'hard', 'read', 'ingredient', 'nutrition', 'label', 'res', 'white', 'write', 'really', 'hard', 'see']",Meets Expectation
+Chobani Original,0,"['would', 'change', 'price', 'seem', 'high', 'one']",Meets Expectation
+Chobani Smooth,0.3612,"['like', 'yogurt', 'inside', 'present', 'outside', 'package']",Meets Expectation
+Chobani Original,0.3384,"['nothing', 'think', 'package', 'describes', 'product', 'well']",Meets Expectation
+Chobani Smooth,0,['nothing'],Meets Expectation
+Chobani Original,-0.3071,"['think', 'fruit', 'bottom', 'might', 'bad', 'taste', 'texture', 'apprehensive', 'first', 'wastn']",Meets Expectation
+Chobani Smooth,0,"['smooth', 'creamy']",Meets Expectation
+Chobani Original,0,"['everything', 'expect']",Meets Expectation
+Chobani Smooth,0.296,"['label', 'ok']",Meets Expectation
+Chobani Original,0.4404,"['make', 'strawberry', 'flavor', 'well', 'add', 'bottom', 'cup']",Meets Expectation
+Chobani Smooth,0,['nan'],Meets Expectation
+Chobani Original,0,['nan'],Meets Expectation
+Chobani Smooth,0,"['sweeter', 'expect']",Meets Expectation
+Chobani Original,0,['nan'],Meets Expectation
+Chobani Smooth,0,"['thought', 'would', 'thicker', 'texture']",Meets Expectation
+Chobani Original,0.2023,"['packaging', 'seem', 'fine']",Meets Expectation
+Chobani Smooth,0.3612,"['packaging', 'look', 'cheap', 'look', 'exactly', 'like', 'anything', 'target', 'brand', 'barely', 'see', 'chobani', 'logo', 'would', 'pick', 'yogurt', 'store', 'would', 'probably', 'walk', 'think', 'target', 'start', 'yogurt']",Meets Expectation
+Chobani Original,0,"['sweetnesssweeter', 'expect']",Meets Expectation
+Chobani Smooth,0,[],Meets Expectation
+Chobani Original,0.7003,"['package', 'seem', 'pretty', 'clear', 'expect']",Meets Expectation
+Chobani Smooth,0,"['taste', 'flavor', 'fruit']",Meets Expectation
+Chobani Original,0.4404,"['didnt', 'realize', 'much', 'protein', 'product', 'thats', 'good', 'thing', 'stand', 'package']",Meets Expectation
+Chobani Smooth,0.6249,"['smoother', 'thick', 'yogurt', 'great', 'flavor']",Meets Expectation
+Chobani Original,0.4215,"['fruity', 'would', 'like']",Meets Expectation
+Chobani Smooth,0.95,"['like', 'package', 'colorful', 'playful', 'information', 'however', 'word', 'classic', 'doesnt', 'resonate', 'ive', 'see', 'company', 'use', 'original', 'classic', 'wasnt', 'user', 'original', 'recipe', 'dont', 'care', 'perhaps', 'natural', 'would', 'good', 'option', 'maybe', 'coin', 'term', 'make', 'greeklike', 'like', 'package', 'colorful', 'doesnt', 'match', 'almost', 'white', 'product', 'inside', 'think', 'thats', 'ok', 'saw', 'someone', 'hold', 'bright', 'red', 'container', 'would', 'want', 'know', 'eat', 'mention', 'like', 'product']",Meets Expectation
+Chobani Smooth,-0.5256,"['fake', 'flavor', 'taste', 'almost', 'chemical']",Meets Expectation
+Chobani Smooth,0,"['flavor', 'unexpected']",Meets Expectation
+Chobani Smooth,-0.34,"['fill', 'replace', 'word', 'smooth', 'top', 'package', 'low', 'fat', 'classic', 'yogurt', 'make', 'low', 'fat', 'visible']",Meets Expectation
+Chobani Smooth,0,[],Meets Expectation
+Chobani Smooth,0.3724,"['nothing', 'wrong', 'packaging']",Meets Expectation
+Chobani Smooth,-0.296,"['nutrition', 'label']",Meets Expectation
+Chobani Smooth,0,"['need', 'real', 'fruit']",Meets Expectation
+Chobani Smooth,0,['nothing'],Meets Expectation
+Chobani Smooth,0.5023,"['lowfat', 'taste', 'like', 'regular', 'yogurt']",Meets Expectation
+Chobani Smooth,0,"['much', 'flavor', 'little', 'runny']",Meets Expectation
+Chobani Smooth,0,"['add', 'nutrition', 'information']",Meets Expectation
+Chobani Smooth,-0.1877,"['sweet', 'enough', 'guess', 'package', 'say', 'less', 'sugar', 'didnt', 'realize', 'would', 'impact', 'taste', 'much']",Meets Expectation
+Chobani Smooth,0,"['something', 'make', 'aware', 'isnt', 'greek', 'yogurt']",Meets Expectation
+Chobani Smooth,0.6124,"['package', 'could', 'say', 'something', 'like', 'like', 'yogurt', 'smooth']",Meets Expectation
+Chobani Smooth,0,"['look', 'consistency', 'yogurt']",Meets Expectation
+Chobani Smooth,0,"['tartness', 'way', 'classic', 'probably', 'conveys', 'outright']",Meets Expectation
+Chobani Smooth,0,['nan'],Meets Expectation
+Chobani Smooth,0,"['smooth', 'yogurt']",Meets Expectation
+Chobani Smooth,0,['na'],Meets Expectation
+Chobani Smooth,0,['na'],Meets Expectation
+Chobani Smooth,0,['nothing'],Meets Expectation
+Chobani Smooth,-0.2732,"['first', 'think', 'would', 'plain', 'low', 'fat', 'design', 'remind', 'greek', 'yogurt']",Meets Expectation
+Chobani Smooth,0,['nothing'],Meets Expectation
+Chobani Smooth,0.4215,"['like', 'little', 'thought', 'would']",Meets Expectation
+Chobani Smooth,0.5574,"['sour', 'tart', 'rich', 'flavor']",Meets Expectation
+Chobani Smooth,0,"['smooth', 'creamy']",Meets Expectation
+Chobani Smooth,-0.7792,"['think', 'think', 'would', 'standard', 'yogurt', 'taste', 'even', 'tho', 'make', 'chobani', 'dont', 'mind', 'greek', 'yogurt', 'person', 'like', 'might', 'disappoint', 'flavor']",Meets Expectation
+Chobani Smooth,0.4404,"['good', 'taste', 'less', 'sugar', 'product']",Meets Expectation
+Chobani Smooth,0.4404,"['name', 'expect', 'really', 'smooth', 'good', 'texture', 'really', 'didnt']",Meets Expectation
+Chobani Smooth,-0.395,"['package', 'say', 'classic', 'yogurt', 'doesnt', 'taste', 'like', 'classic', 'yogurt', 'would', 'consider', 'yoplait', 'dannon', 'etc']",Meets Expectation
+Chobani Smooth,0,"['think', 'packaging', 'appeal']",Meets Expectation
+Chobani Smooth,0,"['include', 'greek', 'yougurt', 'label', 'info']",Meets Expectation
+Chobani Smooth,0.6908,"['think', 'packaging', 'good', 'would', 'like', 'see', 'ingredient', 'list', 'cover', 'toss']",Meets Expectation
+Chobani Smooth,0,"['regular', 'yogurt', 'greek', 'yogurt']",Meets Expectation
+Chobani Smooth,0,"['package', 'say', 'smooth', 'thick', 'classic', 'smooth']",Meets Expectation
+Chobani Smooth,0.4939,"['container', '12', 'full', 'first', 'surprise', 'second', 'surprise', 'fact', 'yogurt', 'gray', 'color', 'add', 'strawberry', 'would', 'make', 'pink', 'dont', 'use', 'food', 'coloring', 'add', 'couple', 'strawberry', 'suddenly', 'pink']",Meets Expectation
+Chobani Smooth,0,"['nothing', 'unexpected', 'might', 'add', 'little', 'sweetner', 'bit', 'tart']",Meets Expectation
+Chobani Smooth,0,"['much', 'red', 'outside', 'container']",Meets Expectation
+Chobani Smooth,-0.296,['change'],Meets Expectation
+Chobani Smooth,0.2714,"['smooth', 'creamy', 'right', 'package', 'truthful', 'change', 'need']",Meets Expectation
+Chobani Smooth,0,"['wouldnt', 'change', 'anything', 'packaging']",Meets Expectation
+Chobani Smooth,-0.2023,"['packaging', 'state', 'full', 'real', 'fruit', 'none', 'visible', 'also', 'surprise', 'see', 'package', 'contain', '2', 'serving', 'seem', 'mislead', 'would', 'likely', 'eat']",Meets Expectation
+Chobani Smooth,0.2716,"['flavor', 'quite', 'good', 'low', 'fat', 'product']",Meets Expectation
+Chobani Smooth,0,"['little', 'thin', 'yogurt']",Meets Expectation
+Chobani Smooth,0,"['flavor', 'sour', 'tasting']",Meets Expectation
+Chobani Smooth,0,"['expect', 'tart', 'wasnt']",Meets Expectation
+Chobani Smooth,0.4404,"['good', 'packaging']",Meets Expectation
+Chobani Smooth,0,"['wouldnt', 'change', 'anything', 'packaging']",Meets Expectation
+Chobani Smooth,0,"['thought', 'would', 'chunk', 'strawberry']",Meets Expectation
+Chobani Smooth,0.8225,"['flavor', 'much', 'well', 'expect', 'taste', 'packaging', 'nice', 'bright', 'color']",Meets Expectation
+Chobani Smooth,0.7764,"['think', 'package', 'good', 'honest', 'represent', 'exactly', 'inside']",Meets Expectation
+Chobani Smooth,0.6794,"['expect', 'taste', 'like', 'greek', 'yogurt', 'container', 'taste', 'like', 'regular', 'yogurt', 'prefer']",Meets Expectation
+Chobani Smooth,0,"['much', 'fruit']",Meets Expectation
+Chobani Original,0,['thicker'],Product Improvement
+Chobani Smooth,0,"['could', 'use', 'little', 'extra', 'flavor']",Product Improvement
+Chobani Original,0.5413,"['really', 'enjoy', 'yogurt', 'would', 'keep']",Product Improvement
+Chobani Smooth,0,"['large', 'container', 'variety']",Product Improvement
+Chobani Original,-0.0418,"['im', 'real', 'fan', 'fruit', 'u', 'stir', 'product', 'tore', 'cover', 'top', 'product', 'bit', 'watery', 'look', 'little', 'separated']",Product Improvement
+Chobani Smooth,0.7424,"['sweet', 'way', 'sweet', 'would', 'buy', '19', 'gram', 'sugar', 'feel', 'though', 'protein', 'content', 'meet', 'exceed', 'amount', 'sugar', 'container', 'yogurt']",Product Improvement
+Chobani Original,0,"['would', 'prefer', 'slightly', 'fruit']",Product Improvement
+Chobani Smooth,0,"['watery', 'open', 'lid', 'water', 'splash', 'even', 'mixed', 'together', 'runny']",Product Improvement
+Chobani Original,0,"['eliminate', 'least', 'reduce', 'added', 'cane', 'sugar']",Product Improvement
+Chobani Smooth,0.3612,"['would', 'like', 'little', 'thicker', 'also', 'morelarger', 'fruit', 'piece', 'since', 'packaging', 'say', 'real', 'fruit', 'didnt', 'much', 'fruit', 'sample']",Product Improvement
+Chobani Original,0,"['nothing', 'come', 'mind']",Product Improvement
+Chobani Smooth,0,"['would', 'make', 'thicker', 'watery']",Product Improvement
+Chobani Original,-0.4228,"['almost', 'tartyogurty', 'taste', 'woudl', 'prefer', 'mix', 'yogurt', 'first', 'view', 'product', 'somewhat', 'unpleasant', 'watery', 'chunky']",Product Improvement
+Chobani Smooth,0.4033,"['subtract', 'bit', 'fruit', 'product', 'since', 'dont', 'feel', 'many', 'fruit', 'bite', 'anyways', 'make', 'less', 'sweet', 'place', 'nutrition', 'fact', 'container']",Product Improvement
+Chobani Original,0.3818,"['color', 'brighter', 'pink', 'sweeter']",Product Improvement
+Chobani Smooth,-0.5122,"['nothing', 'like', 'low', 'sugar', 'yogurt', 'protein']",Product Improvement
+Chobani Original,0.5719,['perfect'],Product Improvement
+Chobani Smooth,0,"['need', 'mix', 'get', 'product', 'distribute', 'evenly']",Product Improvement
+Chobani Original,0.6369,"['would', 'love', 'see', 'sugar', '12', 'gram']",Product Improvement
+Chobani Smooth,0,['protein'],Product Improvement
+Chobani Original,0.7089,"['personally', 'didnt', 'think', 'product', 'pleasant', 'look', 'upon', 'stir', 'didnt', 'think', 'fruit', 'look', 'fresh', 'tasty']",Product Improvement
+Chobani Smooth,0,"['viscous', 'less', 'runny']",Product Improvement
+Chobani Original,0,"['strawberry', 'chunk']",Product Improvement
+Chobani Smooth,0,"['sour', 'thin', 'runny', 'remind', 'little', 'one', 'drinkable', 'yogurt', 'small', 'child']",Product Improvement
+Chobani Original,-0.1027,"['strawberry', 'piece', 'seem', 'limpoverly', 'ripemushy', 'texture', 'hard', 'tell', 'yogurt', 'strawberry', 'flavoralmost', 'gelatin', 'taste']",Product Improvement
+Chobani Smooth,-0.5288,"['make', 'sweet', 'add', 'fruit']",Product Improvement
+Chobani Original,0,"['little', 'sour', 'tasting']",Product Improvement
+Chobani Smooth,0.3392,"['slight', 'tanginess', 'bitterness', 'sweet', 'finish', 'need', 'sweetness', 'noticeable', 'tang']",Product Improvement
+Chobani Original,-0.3182,"['less', 'amount', 'strawberry', 'mix', 'seed', 'bother', 'little']",Product Improvement
+Chobani Smooth,0,"['little', 'thicker']",Product Improvement
+Chobani Original,0.3612,"['size', 'container', 'fit', 'amount', 'yogurt', 'either', 'make', 'cup', 'small', 'put', 'yogurt', 'cup']",Product Improvement
+Chobani Smooth,0.3612,"['make', 'filling', 'would', 'eat', 'feel', 'like', 'half', 'full']",Product Improvement
+Chobani Original,0,"['little', 'sweeter', 'strawberry', 'chunk', 'bottom', 'cup']",Product Improvement
+Chobani Smooth,-0.2755,"['small', 'fruit', 'chunk', 'like', 'especially', 'market', 'smooth']",Product Improvement
+Chobani Original,-0.4767,"['would', 'change', 'texture', 'strawberry', 'jelly', 'felttasted', 'fake', 'artificial']",Product Improvement
+Chobani Smooth,0.3182,"['increase', 'strawberry', 'flavor', 'little']",Product Improvement
+Chobani Original,0.8216,"['like', 'would', 'prefer', 'slightly', 'bit', 'smooth', 'yogurt', 'would', 'prevent', 'buying', 'future', 'great', 'product']",Product Improvement
+Chobani Smooth,0.5327,"['im', 'sure', 'would', 'change', 'anything', 'would', 'like', 'good', 'greek']",Product Improvement
+Chobani Original,0.4215,"['would', 'nice', 'strawberry', 'piece']",Product Improvement
+Chobani Smooth,0.4215,"['would', 'like', 'see', 'piece', 'fruit', 'yogurt', 'seem', 'sort', 'skimpy', 'number', 'fruit', 'piece']",Product Improvement
+Chobani Original,-0.4717,"['would', 'rather', 'strawberry', 'mixed', 'yogurt', 'fruit', 'bottom', 'dont', 'like', 'big', 'strawberry', 'piece', 'fruit', 'bottom', 'firm', 'fresh', 'taste']",Product Improvement
+Chobani Smooth,0.7845,"['would', 'love', 'see', 'fruit', 'chunk', 'add', 'would', 'help', 'bring', 'flavor', 'enhance', 'even']",Product Improvement
+Chobani Original,0.1611,"['didnt', 'love', 'chunk', 'like', 'fruit', 'bottom', 'smooth', 'quite', 'bit', 'sugar15g', 'per', 'serve', 'would', 'like']",Product Improvement
+Chobani Smooth,0,"['little', 'runny', 'maybe', 'bit', 'thick', 'fruit', 'chunk']",Product Improvement
+Chobani Original,0,"['consistency', 'strawberry', 'bottom', 'might', 'little', 'thick']",Product Improvement
+Chobani Smooth,0.705,"['would', 'enjoy', 'fruit', 'chunk', 'yogurt', 'everything', 'else', 'like']",Product Improvement
+Chobani Original,0,"['always', 'fruit']",Product Improvement
+Chobani Smooth,0,"['aftertaste', 'need', 'fruit', 'mixed']",Product Improvement
+Chobani Original,0,"['prestirred', 'mix', 'fruit', 'piece', 'yogurt']",Product Improvement
+Chobani Smooth,0,['nothing'],Product Improvement
+Chobani Original,0,"['real', 'fruit']",Product Improvement
+Chobani Smooth,0.3612,"['would', 'like', 'little', 'bit', 'fruit', 'flavor', 'piece', 'fruit']",Product Improvement
+Chobani Original,-0.4086,"['tend', 'like', 'fruit', 'bottom', 'yogurt', 'yogurt', 'sway', 'like', 'good', 'wish', 'way', 'yogurt', 'maker', 'fresh', 'fruit', 'even', 'fresher', 'seem', 'jam', 'yogurt', 'probably', 'wouldnt', 'keep', 'well', 'enough', 'case', 'didnt', 'care', 'strawberry', 'jam', 'add', 'least', 'enough', 'make', 'want', 'purchase']",Product Improvement
+Chobani Smooth,0,"['make', 'thicker', 'consistency', 'bit', 'thinsugar', 'content', 'still', 'seem', 'bit', 'high', '25', 'less']",Product Improvement
+Chobani Original,0,['nothing'],Product Improvement
+Chobani Smooth,0.4033,"['less', 'sweet', 'fruit', 'flavor']",Product Improvement
+Chobani Original,0.1967,"['greek', 'yogurt', 'slight', 'aftertaste', 'isnt', 'exactly', 'unpleasant', 'noticeable', 'perhaps', 'unavoidable']",Product Improvement
+Chobani Smooth,0,['nan'],Product Improvement
+Chobani Original,0,"['stir', 'long', 'time', 'mix']",Product Improvement
+Chobani Smooth,0,"['wouldnt', 'change', 'thing']",Product Improvement
+Chobani Original,0,"['make', 'sweeter']",Product Improvement
+Chobani Smooth,0.3041,"['little', 'watery', 'id', 'like', 'see', 'strawberry']",Product Improvement
+Chobani Original,0,"['way', 'make', 'creamy', 'bring', 'little', 'strawberry', 'flavor']",Product Improvement
+Chobani Smooth,0,"['little', 'fruit', 'flavor']",Product Improvement
+Chobani Original,0.7559,"['give', 'u', 'less', 'yogurt', 'size', 'container', 'look', 'unappealing', 'shrivel', 'yogurt', 'sit', 'whey', 'look', 'spoilt', 'people', 'eat', 'eye', 'would', 'never', 'pay', '155', 'spend', 'money', 'product', 'advertising', 'people', 'arent', 'stupid', 'think', 'container', 'pretty', 'butyou', 'downsize', 'content', 'longer', 'enough', 'make', 'quick', 'breakfast', 'lunch']",Product Improvement
+Chobani Smooth,0,['nothing'],Product Improvement
+Chobani Original,0,"['seem', 'little', 'thin', 'greek', 'yogurt']",Product Improvement
+Chobani Smooth,0,"['add', 'piece', 'strawberry']",Product Improvement
+Chobani Original,0,['nothing'],Product Improvement
+Chobani Smooth,0.6231,"['consistency', 'thinner', 'prefer', 'package', 'indicate', 'mild', 'yogurt', 'find', 'quite', 'sour', 'like', 'greek', 'style', 'yogurt', 'package', 'state', 'smooth', 'yogurt', 'several', 'small', 'chunk', 'fruit']",Product Improvement
+Chobani Original,0.4215,"['would', 'like', 'see', 'actual', 'strawberry', 'piece', 'instead', 'jellylike', 'substance', 'bottom', 'container']",Product Improvement
+Chobani Smooth,0.3976,"['first', 'like', 'smooth', 'creamy', 'texture', 'slightly', 'runny', 'would', 'like', 'little', 'consistency', 'second', 'odd', 'aftertaste', 'almost', 'like', 'fake', 'sugar', 'much', 'sugar']",Product Improvement
+Chobani Original,-0.296,"['low', 'price']",Product Improvement
+Chobani Smooth,0.3612,"['would', 'like', 'little', 'thicker']",Product Improvement
+Chobani Original,-0.0076,"['mix', 'yogurt', 'make', 'cup', 'big', 'slightly', 'easy', 'mix', 'also', 'dont', 'mix', 'correctly', 'get', 'bitter', 'taste']",Product Improvement
+Chobani Smooth,-0.5423,"['sour', 'horrible', 'taste']",Product Improvement
+Chobani Original,0,"['texture', 'little']",Product Improvement
+Chobani Smooth,0.3804,"['fresh', 'strawberry', 'piece']",Product Improvement
+Chobani Original,0.8137,"['could', 'little', 'less', 'sweet', 'still', 'good', 'little', 'fruit', 'would', 'nice']",Product Improvement
+Chobani Smooth,0.3818,"['strong', 'strawberry', 'flavor']",Product Improvement
+Chobani Original,0,"['particular', 'product', 'wasnt', 'much', 'would', 'change']",Product Improvement
+Chobani Smooth,0,"['flavor', 'find', 'overpower', 'taste', 'sour', 'milk']",Product Improvement
+Chobani Original,0,"['fruit', 'bottom']",Product Improvement
+Chobani Smooth,0,"['aftertaste', 'lingers', 'little', 'would', 'prefer']",Product Improvement
+Chobani Original,0.4657,"['huge', 'fan', 'fruit', 'bottom', 'yogurt', 'maybe', 'blend', 'also', 'maybe', 'bit', 'less', 'sugar', 'still', 'keep', 'sweet', 'tasting']",Product Improvement
+Chobani Smooth,0,['nothing'],Product Improvement
+Chobani Original,-0.296,"['low', 'price']",Product Improvement
+Chobani Smooth,0,"['little', 'perhaps', 'tad', 'strawberry', 'flavor']",Product Improvement
+Chobani Original,0,['nothing'],Product Improvement
+Chobani Smooth,0.3612,"['bit', 'runnywaterythin', 'would', 'like', 'little', 'bit', 'thicker']",Product Improvement
+Chobani Original,-0.3612,"['dont', 'know', 'change', 'initially', 'open', 'container', 'first', 'thing', 'saw', 'water', 'yougart', 'also', 'first', 'appearance', 'mix', 'fuit', 'visually', 'appeal', 'look', 'like', 'jelly', 'thrown', 'yougart', 'container', 'like', 'container', 'half', 'full', 'fill', 'cup', 'atleast', '34', 'way', 'use', 'small', 'container', 'otherwise', 'disappointing', 'waste']",Product Improvement
+Chobani Smooth,-0.4215,"['strawberry', 'flavor', 'tad', 'bitter']",Product Improvement
+Chobani Original,0,['nothing'],Product Improvement
+Chobani Smooth,0,"['little', 'thin']",Product Improvement
+Chobani Original,0,['nothing'],Product Improvement
+Chobani Smooth,0,"['would', 'make', 'little', 'thicker', 'consistency', 'little', 'runny']",Product Improvement
+Chobani Original,0,"['make', 'serve', 'size', 'large', 'price']",Product Improvement
+Chobani Smooth,0.4404,"['would', 'change', 'heavy', 'taste', 'yogurt', 'make', 'good', 'would', 'make', 'smooth', 'heavy']",Product Improvement
+Chobani Original,0.2263,"['shake', 'product', 'open', 'help', 'mix']",Product Improvement
+Chobani Smooth,0,"['add', 'strawberry', 'flavor']",Product Improvement
+Chobani Original,0,['nothing'],Product Improvement
+Chobani Smooth,0,"['specify', 'amount', 'protein', 'package']",Product Improvement
+Chobani Original,0,['nothing'],Product Improvement
+Chobani Smooth,-0.5719,"['package', 'hate', 'ridge', 'inside']",Product Improvement
+Chobani Original,-0.4023,"['strawberry', 'flavor', 'wasnt', 'strong', 'enough']",Product Improvement
+Chobani Smooth,0,['nan'],Product Improvement
+Chobani Original,0,['nothing'],Product Improvement
+Chobani Smooth,0,"['fruit', 'piece']",Product Improvement
+Chobani Original,0,"['appearance', 'strawberry', 'id', 'make', 'look', 'fresher']",Product Improvement
+Chobani Smooth,0.4033,"['thicker', 'texture', 'even', 'less', 'sweet', 'strawberry', 'piece']",Product Improvement
+Chobani Original,-0.2411,"['big', 'fan', 'fruit', 'bottom', 'style', 'yogurt']",Product Improvement
+Chobani Smooth,-0.7068,"['would', 'make', 'tiny', 'bit', 'thick', 'consistency', 'like', 'creamy', 'texture', 'almost', 'slippery', 'favorite', 'yogurt', 'dislike', 'greatly', 'package', 'one', 'big', 'change', 'would', 'package']",Product Improvement
+Chobani Original,0,['nothing'],Product Improvement
+Chobani Smooth,0,"['possibly', 'add', 'fruit', 'chunk']",Product Improvement
+Chobani Original,0.3971,"['less', 'sugar', 'possible', 'im', 'huge', 'fan', 'chunk', 'fruit', 'wish', 'mixed', 'good']",Product Improvement
+Chobani Smooth,0,['nothing'],Product Improvement
+Chobani Original,0.3182,"['increase', 'size', 'package']",Product Improvement
+Chobani Smooth,0,"['add', 'big', 'chunk', 'strawberry']",Product Improvement
+Chobani Original,0,"['fruit', 'le', 'sugar', 'little', 'thick']",Product Improvement
+Chobani Smooth,0,['nothing'],Product Improvement
+Chobani Smooth,0,"['add', 'fruit', 'piece']",Product Improvement
+Chobani Smooth,0,['strawberry'],Product Improvement
+Chobani Smooth,0,"['strawberry', 'taste']",Product Improvement
+Chobani Smooth,-0.296,"['low', 'price']",Product Improvement
+Chobani Smooth,-0.2808,"['slight', 'idk', 'chalky', 'taste']",Product Improvement
+Chobani Smooth,0,"['color', 'appeal']",Product Improvement
+Chobani Smooth,0,"['add', 'strawberry', 'flavor', 'strawberry']",Product Improvement
+Chobani Smooth,0,['oth'],Product Improvement
+Chobani Smooth,0.4404,"['little', 'bit', 'sweeter', 'without', 'add', 'gram', 'sugar', 'would', 'better']",Product Improvement
+Chobani Smooth,0.3321,"['need', 'piece', 'strawberry', 'add', 'flavor', 'well', 'slightly', 'thick', 'consistency']",Product Improvement
+Chobani Smooth,0,['nan'],Product Improvement
+Chobani Smooth,0.031,"['sweet', 'hop', 'bit', 'yogurt', 'blend', 'id', 'get', 'glob', 'glob', 'berry']",Product Improvement
+Chobani Smooth,0,['nothing'],Product Improvement
+Chobani Smooth,0,"['add', 'fruit', 'bit', 'inside', 'yogurt', 'really', 'tiny', 'every', 'bit']",Product Improvement
+Chobani Smooth,0,"['add', 'bit', 'flavor', 'maybe', 'add', 'strawberry', 'piece']",Product Improvement
+Chobani Smooth,0.2732,"['little', 'strawberry', 'flavor', 'andor', 'sweetness', 'lot', 'touch']",Product Improvement
+Chobani Smooth,0,['sweeter'],Product Improvement
+Chobani Smooth,0,"['type', 'offer', 'mix', 'kindgranola']",Product Improvement
+Chobani Smooth,0,"['strawberry', 'flavor']",Product Improvement
+Chobani Smooth,0,"['flavor', 'need', 'sweeter', 'semi', 'tart']",Product Improvement
+Chobani Smooth,0,['nothing'],Product Improvement
+Chobani Smooth,0,"['strawberry', 'chunky']",Product Improvement
+Chobani Smooth,0,['strawberry'],Product Improvement
+Chobani Smooth,0.4215,"['would', 'nice', 'wasnt', 'much', 'liquid', 'top', 'open', 'kind', 'gross']",Product Improvement
+Chobani Smooth,0,"['add', 'fruit', 'piece']",Product Improvement
+Chobani Smooth,0.323,"['strawberry', 'flavor', 'could', 'little', 'bit', 'strong']",Product Improvement
+Chobani Smooth,0.1655,"['im', 'sure', 'everyone', 'know', 'chobani', 'greek', 'yogurt', 'maybe', 'somehow', 'change', 'name', 'also', 'mention', 'greek', 'yogurt', 'flavor']",Product Improvement
+Chobani Smooth,0.3832,"['look', 'little', 'funny', 'first', 'open', 'also', 'little', 'pricey']",Product Improvement
+Chobani Smooth,0.4019,"['texture', 'kind', 'griddy', 'wish', 'would', 'smooth']",Product Improvement
+Chobani Smooth,-0.5408,"['well', 'flavor', 'strong', 'strawberry', 'flavor', 'strawberry', 'chunk', 'dont', 'like', 'smell', 'aftertaste', 'bitter', 'sweet']",Product Improvement
+Chobani Smooth,0,['name'],Product Improvement
+Chobani Smooth,0,['nan'],Product Improvement
+Chobani Smooth,0,"['would', 'add', 'fruit']",Product Improvement
+Chobani Smooth,0,"['fill', 'cup', 'fullercup', 'little', '34', 'full']",Product Improvement
+Chobani Smooth,-0.1729,"['thick', 'almost', 'gluelike', 'sweet', 'enough', 'snack', 'crave', 'fine', 'nutritional', 'breakfast', 'quick', 'meal', 'look', 'bland']",Product Improvement
+Chobani Smooth,0.4926,"['need', 'fruit', 'add', '2', 'strawberry', 'able', 'taste', 'strawberry', 'flavor', 'also', 'container', '12', 'full', 'suggest', 'use', 'small', 'container', 'fill', 'exist', 'container', 'think', 'small', 'container', 'well', 'idea']",Product Improvement
+Chobani Smooth,-0.2411,"['tart', 'wasnt', 'sure', 'could', 'take', 'aftertaste']",Product Improvement
+Chobani Smooth,0,['creamyness'],Product Improvement
+Chobani Smooth,0,['aftertaste'],Product Improvement
+Chobani Smooth,0,"['would', 'add', 'big', 'piece', 'strawberry']",Product Improvement
+Chobani Smooth,0,"['add', 'strawberry']",Product Improvement
+Chobani Smooth,0.6597,"['would', 'like', 'thicker', 'piece', 'fruit', 'consistency', 'seem', 'thin', 'large', 'selection', 'flavor', 'choose', 'would', 'also', 'good']",Product Improvement
+Chobani Smooth,-0.6705,"['could', 'use', 'little', 'real', 'fruit', 'enhance', 'flavor', 'color', 'pale', 'please', 'eye', 'seem', 'little', 'bitter', 'taste']",Product Improvement
+Chobani Smooth,0,"['make', 'thicker']",Product Improvement
+Chobani Smooth,0,"['strawberry', 'flavor', 'add', 'fruit', 'chunk']",Product Improvement
+Chobani Smooth,0,"['strawberry', 'chunk', 'strawberry', 'flavor']",Product Improvement
+Chobani Smooth,0,"['make', 'little', 'less', 'tart']",Product Improvement
+Chobani Smooth,0.4404,"['would', 'taste', 'good', 'even', 'berry', 'flavor', 'little', 'runny']",Product Improvement
+Chobani Smooth,0,"['add', 'fruit', 'piece']",Product Improvement
+Chobani Smooth,0,"['add', 'chuck', 'strawberry']",Product Improvement
+Chobani Smooth,0.4404,"['would', 'add', 'granola', 'yogurt', 'make', 'taste', 'well']",Product Improvement
+Chobani Smooth,0,"['add', 'strawberry', 'chunk']",Product Improvement
+Chobani Smooth,0.3818,"['could', 'stronger', 'strawberry', 'flavor', 'put', 'chunk', 'strawberry']",Product Improvement

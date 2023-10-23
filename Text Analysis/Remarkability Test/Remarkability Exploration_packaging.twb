@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.22.0611.0332                               -->
+<workbook original-version='18.1' source-build='2021.4.8 (20214.22.0611.0332)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.discoverpane.show' value='false' />
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='pp_easy_to_open (remarkability_test_analysis)' inline='true' name='federated.1tl2b4u1axl5rg1adjkig1ioud7j' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='remarkability_test_analysis' name='excel-direct.1s92a3k1nxniz5156ofui0n8705x'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/g654674/OneDrive - General Mills/Work_OneDrive/PGI/Text Analytics/Remarkability Test/remarkability_test_analysis.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+          <named-connection caption='remarkability_test_analysis (2)' name='excel-direct.0hq18cn00y2op418bvzqg0bzzycs'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/g654674/OneDrive - General Mills/Work_OneDrive/PGI/Text Analytics/Remarkability Test/remarkability_test_analysis.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0hq18cn00y2op418bvzqg0bzzycs' name='pp_easy_to_open' table='[pp_easy_to_open$]' type='table'>
+          <columns gridOrigin='A1:B102:no:A1:B102:0' header='yes' outcome='6'>
+            <column datatype='string' name='pp_oe' ordinal='0' />
+            <column datatype='string' name='packaging_preference' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0hq18cn00y2op418bvzqg0bzzycs' name='pp_easy_to_open' table='[pp_easy_to_open$]' type='table'>
+          <columns gridOrigin='A1:B102:no:A1:B102:0' header='yes' outcome='6'>
+            <column datatype='string' name='pp_oe' ordinal='0' />
+            <column datatype='string' name='packaging_preference' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[pp_easy_to_open]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>2</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B102:no:A1:B102:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pp_oe</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[pp_oe]</local-name>
+            <parent-name>[pp_easy_to_open]</parent-name>
+            <remote-alias>pp_oe</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pp!easy!to!open_CAD886A48C4C422F841A4DAA2F3DD9BD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>packaging_preference</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[packaging_preference]</local-name>
+            <parent-name>[pp_easy_to_open]</parent-name>
+            <remote-alias>packaging_preference</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pp!easy!to!open_CAD886A48C4C422F841A4DAA2F3DD9BD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='pp_easy_to_open' datatype='table' name='[__tableau_internal_object_id__].[pp!easy!to!open_CAD886A48C4C422F841A4DAA2F3DD9BD]' role='measure' type='quantitative' />
+      <column caption='Packaging Preference' datatype='string' name='[packaging_preference]' role='dimension' type='nominal' />
+      <column caption='Pp Oe' datatype='string' name='[pp_oe]' role='dimension' type='nominal' />
+      <column-instance column='[packaging_preference]' derivation='None' name='[none:packaging_preference:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:packaging_preference:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;nestle&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;pillsbury&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='pp_easy_to_open' id='pp!easy!to!open_CAD886A48C4C422F841A4DAA2F3DD9BD'>
+            <properties context=''>
+              <relation connection='excel-direct.0hq18cn00y2op418bvzqg0bzzycs' name='pp_easy_to_open' table='[pp_easy_to_open$]' type='table'>
+                <columns gridOrigin='A1:B102:no:A1:B102:0' header='yes' outcome='6'>
+                  <column datatype='string' name='pp_oe' ordinal='0' />
+                  <column datatype='string' name='packaging_preference' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Easy To  Open</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='pp_easy_to_open (remarkability_test_analysis)' name='federated.1tl2b4u1axl5rg1adjkig1ioud7j' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1tl2b4u1axl5rg1adjkig1ioud7j'>
+            <column-instance column='[pp_oe]' derivation='Count' name='[cnt:pp_oe:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[packaging_preference]' derivation='None' name='[none:packaging_preference:nk]' pivot='key' type='nominal' />
+            <column caption='Packaging Preference' datatype='string' name='[packaging_preference]' role='dimension' type='nominal' />
+            <column caption='Pp Oe' datatype='string' name='[pp_oe]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.1tl2b4u1axl5rg1adjkig1ioud7j].[none:packaging_preference:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;pillsbury&quot;</bucket>
+              <bucket>&quot;nestle&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.1tl2b4u1axl5rg1adjkig1ioud7j].[cnt:pp_oe:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1tl2b4u1axl5rg1adjkig1ioud7j].[none:packaging_preference:nk]' value='59' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1tl2b4u1axl5rg1adjkig1ioud7j].[none:packaging_preference:nk]' value='104' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1tl2b4u1axl5rg1adjkig1ioud7j].[none:packaging_preference:nk]' />
+            </encodings>
+            <dropline drop-when='selected' haslabel='false' x-axis='true' y-axis='false' />
+            <style>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1tl2b4u1axl5rg1adjkig1ioud7j].[none:packaging_preference:nk]</rows>
+        <cols>[federated.1tl2b4u1axl5rg1adjkig1ioud7j].[cnt:pp_oe:qk]</cols>
+        <mark-labels>
+          <mark-label id='0' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1tl2b4u1axl5rg1adjkig1ioud7j].[cnt:pp_oe:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1tl2b4u1axl5rg1adjkig1ioud7j].[none:packaging_preference:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1tl2b4u1axl5rg1adjkig1ioud7j].[cnt:pp_oe:qk]</field>
+                  <field>[federated.1tl2b4u1axl5rg1adjkig1ioud7j].[none:packaging_preference:nk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>75</value>
+                <value>&quot;pillsbury&quot;</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='1' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1tl2b4u1axl5rg1adjkig1ioud7j].[cnt:pp_oe:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1tl2b4u1axl5rg1adjkig1ioud7j].[none:packaging_preference:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1tl2b4u1axl5rg1adjkig1ioud7j].[cnt:pp_oe:qk]</field>
+                  <field>[federated.1tl2b4u1axl5rg1adjkig1ioud7j].[none:packaging_preference:nk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>28</value>
+                <value>&quot;nestle&quot;</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{D1E39D34-B8DF-471A-9302-E8A1A18DDEB9}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='222'>
+            <card pane-specification-id='0' param='[federated.1tl2b4u1axl5rg1adjkig1ioud7j].[none:packaging_preference:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1tl2b4u1axl5rg1adjkig1ioud7j].[none:pp_oe:nk]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='4' />
+      </viewpoint>
+      <simple-id uuid='{66E40CEA-EDEB-4D02-AB19-F4BF093F8B99}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='122' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

@@ -1,0 +1,81 @@
+word,frequency,sentiment_mean,product,question
+like,9,2.71,Yoplait OSY,Product Improvement
+yogurt,19,10.63,Yoplait OSY,Product Improvement
+flavor,2,-16.83,Yoplait OSY,Product Improvement
+fruit,17,9.22,Yoplait OSY,Product Improvement
+strawberry,15,-10.29,Yoplait OSY,Product Improvement
+taste,4,-21.41,Yoplait OSY,Product Improvement
+would,13,24.74,Yoplait OSY,Product Improvement
+smooth,2,49.14,Yoplait OSY,Product Improvement
+good,3,26.74,Yoplait OSY,Product Improvement
+creamy,1,0,Yoplait OSY,Product Improvement
+like,18,19.07,Chobani Smooth,Product Improvement
+yogurt,15,19.59,Chobani Smooth,Product Improvement
+flavor,28,13.65,Chobani Smooth,Product Improvement
+fruit,29,15.59,Chobani Smooth,Product Improvement
+strawberry,34,9.06,Chobani Smooth,Product Improvement
+taste,9,-0.43,Chobani Smooth,Product Improvement
+would,29,31.71,Chobani Smooth,Product Improvement
+smooth,5,31.75,Chobani Smooth,Product Improvement
+good,4,51.83,Chobani Smooth,Product Improvement
+creamy,2,-10.31,Chobani Smooth,Product Improvement
+like,11,25.6,Yoplait OSY,Meets Expectation
+yogurt,18,27.43,Yoplait OSY,Meets Expectation
+flavor,6,47.53,Yoplait OSY,Meets Expectation
+fruit,16,15.82,Yoplait OSY,Meets Expectation
+strawberry,8,28.91,Yoplait OSY,Meets Expectation
+taste,6,28.24,Yoplait OSY,Meets Expectation
+would,10,24.12,Yoplait OSY,Meets Expectation
+smooth,1,80.67,Yoplait OSY,Meets Expectation
+good,2,44.04,Yoplait OSY,Meets Expectation
+creamy,1,0,Yoplait OSY,Meets Expectation
+like,29,35.84,Chobani Smooth,Meets Expectation
+yogurt,41,15.89,Chobani Smooth,Meets Expectation
+flavor,15,21.17,Chobani Smooth,Meets Expectation
+fruit,23,6.92,Chobani Smooth,Meets Expectation
+strawberry,7,33.47,Chobani Smooth,Meets Expectation
+taste,18,18.08,Chobani Smooth,Meets Expectation
+would,29,16.52,Chobani Smooth,Meets Expectation
+smooth,17,18.39,Chobani Smooth,Meets Expectation
+good,12,59.7,Chobani Smooth,Meets Expectation
+creamy,4,22.54,Chobani Smooth,Meets Expectation
+like,32,68.93,Yoplait OSY,Liking
+yogurt,23,62.59,Yoplait OSY,Liking
+flavor,32,49.92,Yoplait OSY,Liking
+fruit,18,36.44,Yoplait OSY,Liking
+strawberry,23,57.22,Yoplait OSY,Liking
+taste,20,51.29,Yoplait OSY,Liking
+would,1,10.78,Yoplait OSY,Liking
+smooth,8,44.08,Yoplait OSY,Liking
+good,25,56.48,Yoplait OSY,Liking
+creamy,20,31.18,Yoplait OSY,Liking
+like,42,56.28,Chobani Smooth,Liking
+yogurt,25,51.13,Chobani Smooth,Liking
+flavor,36,40.31,Chobani Smooth,Liking
+fruit,15,32.41,Chobani Smooth,Liking
+strawberry,26,38.32,Chobani Smooth,Liking
+taste,36,45.64,Chobani Smooth,Liking
+would,2,67.43,Chobani Smooth,Liking
+smooth,45,41.04,Chobani Smooth,Liking
+good,24,53.58,Chobani Smooth,Liking
+creamy,37,33.3,Chobani Smooth,Liking
+creamy,22,10.39,Yoplait OSY,All Questions
+flavor,40,26.87,Yoplait OSY,All Questions
+fruit,51,20.49,Yoplait OSY,All Questions
+good,30,42.42,Yoplait OSY,All Questions
+like,52,32.41,Yoplait OSY,All Questions
+smooth,11,57.96,Yoplait OSY,All Questions
+strawberry,46,25.28,Yoplait OSY,All Questions
+taste,30,19.37,Yoplait OSY,All Questions
+would,24,19.88,Yoplait OSY,All Questions
+yogurt,60,33.55,Yoplait OSY,All Questions
+creamy,43,15.18,Chobani Smooth,All Questions
+flavor,79,25.04,Chobani Smooth,All Questions
+fruit,67,18.31,Chobani Smooth,All Questions
+good,40,55.04,Chobani Smooth,All Questions
+like,89,37.06,Chobani Smooth,All Questions
+smooth,67,30.39,Chobani Smooth,All Questions
+strawberry,67,26.95,Chobani Smooth,All Questions
+taste,63,21.1,Chobani Smooth,All Questions
+would,60,38.55,Chobani Smooth,All Questions
+yogurt,81,28.87,Chobani Smooth,All Questions

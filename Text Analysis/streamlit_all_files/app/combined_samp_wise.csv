@@ -1,0 +1,21 @@
+word,frequency,sentiment_mean,product
+nothing,220,0.0,Chobani Original
+yogurt,60,39.12096774193549,Chobani Original
+like,52,55.684,Chobani Original
+fruit,51,23.271290322580644,Chobani Original
+flavor,40,44.03411764705883,Chobani Original
+strawberry,46,31.407647058823528,Chobani Original
+taste,30,35.13555555555555,Chobani Original
+would,24,23.745,Chobani Original
+smooth,11,45.00272727272728,Chobani Original
+creamy,25,26.382692307692313,Chobani Original
+nothing,172,-0.4532743362831858,Chobani Smooth
+yogurt,83,38.51100000000001,Chobani Smooth
+like,89,43.62799999999999,Chobani Smooth
+fruit,73,19.114888888888892,Chobani Smooth
+flavor,79,29.0590625,Chobani Smooth
+strawberry,69,21.798571428571424,Chobani Smooth
+taste,65,29.992200000000004,Chobani Smooth
+would,60,34.35592592592593,Chobani Smooth
+smooth,71,38.86542372881357,Chobani Smooth
+creamy,56,23.73903846153847,Chobani Smooth

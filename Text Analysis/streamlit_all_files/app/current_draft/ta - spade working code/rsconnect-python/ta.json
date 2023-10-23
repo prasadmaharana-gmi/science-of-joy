@@ -1,0 +1,11 @@
+{
+    "https://rs-connect-d.genmills.com/": {
+        "server_url": "https://rs-connect-d.genmills.com/",
+        "filename": "C:\\Users\\g654674\\OneDrive - General Mills\\Work_OneDrive\\PGI\\Text Analytics\\app\\current_draft\\ta",
+        "app_url": "http://rs-connect-d.genmills.com/connect/#/apps/bc86a537-c0f1-48ce-91c8-82dc11ffb582",
+        "app_id": "bc86a537-c0f1-48ce-91c8-82dc11ffb582",
+        "app_guid": "bc86a537-c0f1-48ce-91c8-82dc11ffb582",
+        "title": "0ta",
+        "app_mode": "python-streamlit"
+    }
+}

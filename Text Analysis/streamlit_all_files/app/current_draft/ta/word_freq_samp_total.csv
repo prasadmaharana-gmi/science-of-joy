@@ -1,0 +1,121 @@
+word,frequency,sentiment_mean,product,question
+flavor,87,40.7,BBQ - Control (Texas BBQ),Liking
+nothing,20,-0.68,BBQ - Control (Texas BBQ),Liking
+bbq,48,45.3,BBQ - Control (Texas BBQ),Liking
+taste,61,41.91,BBQ - Control (Texas BBQ),Liking
+like,90,49.6,BBQ - Control (Texas BBQ),Liking
+bar,31,57.47,BBQ - Control (Texas BBQ),Liking
+would,4,70.73,BBQ - Control (Texas BBQ),Liking
+good,31,58.3,BBQ - Control (Texas BBQ),Liking
+product,20,52.74,BBQ - Control (Texas BBQ),Liking
+expect,3,52.8,BBQ - Control (Texas BBQ),Liking
+flavor,75,27.11,BBQ - Control (Texas BBQ),Meets Expectation
+nothing,0,0,BBQ - Control (Texas BBQ),Meets Expectation
+bbq,66,25.11,BBQ - Control (Texas BBQ),Meets Expectation
+taste,51,29.62,BBQ - Control (Texas BBQ),Meets Expectation
+like,35,35.09,BBQ - Control (Texas BBQ),Meets Expectation
+bar,52,34.97,BBQ - Control (Texas BBQ),Meets Expectation
+would,29,25.93,BBQ - Control (Texas BBQ),Meets Expectation
+good,39,44.19,BBQ - Control (Texas BBQ),Meets Expectation
+product,18,50.02,BBQ - Control (Texas BBQ),Meets Expectation
+expect,46,29.33,BBQ - Control (Texas BBQ),Meets Expectation
+flavor,83,15.94,BBQ - Control (Texas BBQ),Product Improvement
+nothing,215,0.41,BBQ - Control (Texas BBQ),Product Improvement
+bbq,48,15.71,BBQ - Control (Texas BBQ),Product Improvement
+taste,27,14.19,BBQ - Control (Texas BBQ),Product Improvement
+like,29,29.23,BBQ - Control (Texas BBQ),Product Improvement
+bar,18,35.4,BBQ - Control (Texas BBQ),Product Improvement
+would,39,25.68,BBQ - Control (Texas BBQ),Product Improvement
+good,1,44.04,BBQ - Control (Texas BBQ),Product Improvement
+product,8,-4.13,BBQ - Control (Texas BBQ),Product Improvement
+expect,0,0,BBQ - Control (Texas BBQ),Product Improvement
+bar,101,42.61,BBQ - Control (Texas BBQ),All Questions
+bbq,162,28.71,BBQ - Control (Texas BBQ),All Questions
+expect,49,41.06,BBQ - Control (Texas BBQ),All Questions
+flavor,245,27.92,BBQ - Control (Texas BBQ),All Questions
+good,71,48.84,BBQ - Control (Texas BBQ),All Questions
+like,154,37.97,BBQ - Control (Texas BBQ),All Questions
+nothing,235,-0.13,BBQ - Control (Texas BBQ),All Questions
+product,46,32.88,BBQ - Control (Texas BBQ),All Questions
+taste,139,28.57,BBQ - Control (Texas BBQ),All Questions
+would,72,40.78,BBQ - Control (Texas BBQ),All Questions
+flavor,89,41.73,BBQ - Test 13,Liking
+nothing,29,0,BBQ - Test 13,Liking
+bbq,48,42.28,BBQ - Test 13,Liking
+taste,57,38.63,BBQ - Test 13,Liking
+like,74,48.85,BBQ - Test 13,Liking
+bar,26,50.41,BBQ - Test 13,Liking
+would,5,64.93,BBQ - Test 13,Liking
+good,19,69.02,BBQ - Test 13,Liking
+product,21,50.98,BBQ - Test 13,Liking
+expect,3,39.05,BBQ - Test 13,Liking
+flavor,87,26.84,BBQ - Test 13,Meets Expectation
+nothing,2,18.37,BBQ - Test 13,Meets Expectation
+bbq,55,21.65,BBQ - Test 13,Meets Expectation
+taste,68,24.81,BBQ - Test 13,Meets Expectation
+like,41,37.12,BBQ - Test 13,Meets Expectation
+bar,38,37.9,BBQ - Test 13,Meets Expectation
+would,28,32.66,BBQ - Test 13,Meets Expectation
+good,26,48.82,BBQ - Test 13,Meets Expectation
+product,16,39.6,BBQ - Test 13,Meets Expectation
+expect,45,25.58,BBQ - Test 13,Meets Expectation
+flavor,90,17.4,BBQ - Test 13,Product Improvement
+nothing,171,-0.6,BBQ - Test 13,Product Improvement
+bbq,48,18.57,BBQ - Test 13,Product Improvement
+taste,37,21.1,BBQ - Test 13,Product Improvement
+like,26,31.75,BBQ - Test 13,Product Improvement
+bar,21,23.1,BBQ - Test 13,Product Improvement
+would,38,24.3,BBQ - Test 13,Product Improvement
+good,8,10.12,BBQ - Test 13,Product Improvement
+product,11,28.54,BBQ - Test 13,Product Improvement
+expect,0,63.3,BBQ - Test 13,Product Improvement
+bar,85,37.14,BBQ - Test 13,All Questions
+bbq,151,27.5,BBQ - Test 13,All Questions
+expect,48,42.64,BBQ - Test 13,All Questions
+flavor,266,28.66,BBQ - Test 13,All Questions
+good,53,42.65,BBQ - Test 13,All Questions
+like,141,39.24,BBQ - Test 13,All Questions
+nothing,202,5.92,BBQ - Test 13,All Questions
+product,48,39.71,BBQ - Test 13,All Questions
+taste,162,28.18,BBQ - Test 13,All Questions
+would,71,40.63,BBQ - Test 13,All Questions
+flavor,87,42.49,BBQ - Test 14,Liking
+nothing,36,0,BBQ - Test 14,Liking
+bbq,52,48.05,BBQ - Test 14,Liking
+taste,56,44.09,BBQ - Test 14,Liking
+like,92,47.36,BBQ - Test 14,Liking
+bar,34,43.38,BBQ - Test 14,Liking
+would,5,42.88,BBQ - Test 14,Liking
+good,26,62.34,BBQ - Test 14,Liking
+product,22,29.21,BBQ - Test 14,Liking
+expect,2,19.94,BBQ - Test 14,Liking
+flavor,85,20.25,BBQ - Test 14,Meets Expectation
+nothing,2,32.03,BBQ - Test 14,Meets Expectation
+bbq,61,16.27,BBQ - Test 14,Meets Expectation
+taste,69,23.59,BBQ - Test 14,Meets Expectation
+like,39,34.99,BBQ - Test 14,Meets Expectation
+bar,57,25.77,BBQ - Test 14,Meets Expectation
+would,29,30.01,BBQ - Test 14,Meets Expectation
+good,23,40.87,BBQ - Test 14,Meets Expectation
+product,24,27.29,BBQ - Test 14,Meets Expectation
+expect,45,27.86,BBQ - Test 14,Meets Expectation
+flavor,71,17.2,BBQ - Test 14,Product Improvement
+nothing,171,-0.27,BBQ - Test 14,Product Improvement
+bbq,41,12.71,BBQ - Test 14,Product Improvement
+taste,30,10.29,BBQ - Test 14,Product Improvement
+like,28,34.35,BBQ - Test 14,Product Improvement
+bar,24,23.92,BBQ - Test 14,Product Improvement
+would,39,16.78,BBQ - Test 14,Product Improvement
+good,7,45.03,BBQ - Test 14,Product Improvement
+product,10,25.49,BBQ - Test 14,Product Improvement
+expect,5,30.06,BBQ - Test 14,Product Improvement
+bar,115,31.02,BBQ - Test 14,All Questions
+bbq,154,25.68,BBQ - Test 14,All Questions
+expect,52,25.95,BBQ - Test 14,All Questions
+flavor,243,26.65,BBQ - Test 14,All Questions
+good,56,49.41,BBQ - Test 14,All Questions
+like,159,38.9,BBQ - Test 14,All Questions
+nothing,209,10.59,BBQ - Test 14,All Questions
+product,56,27.33,BBQ - Test 14,All Questions
+taste,155,25.99,BBQ - Test 14,All Questions
+would,73,29.89,BBQ - Test 14,All Questions

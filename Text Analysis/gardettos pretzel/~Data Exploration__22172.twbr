@@ -1,0 +1,1838 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20223.23.0214.1014                               -->
+<workbook original-version='18.1' source-build='2022.3.4 (20223.23.0214.1014)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.discoverpane.show' value='false' />
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='open_ends_topic_categorization (remarkability_test_analysis)' inline='true' name='federated.1u5cdcj116cdz314u6tnc1s77s0m' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='analysis' name='excel-direct.0447y0a0avhdqj1h4x4w71ksacxa'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/g654674/OneDrive - General Mills/Work_OneDrive/PGI/Text Analytics/gardettos pretzel/analysis.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0447y0a0avhdqj1h4x4w71ksacxa' name='topic_categorization' table='[topic_categorization$]' type='table'>
+          <columns gridOrigin='A1:N660:no:A1:N660:0' header='yes' outcome='6'>
+            <column datatype='string' name='product' ordinal='0' />
+            <column datatype='integer' name='ol_scale' ordinal='1' />
+            <column datatype='string' name='ol_3_scaled' ordinal='2' />
+            <column datatype='string' name='liking_oe' ordinal='3' />
+            <column datatype='string' name='reduced_sentence' ordinal='4' />
+            <column datatype='string' name='Appearnce' ordinal='5' />
+            <column datatype='string' name='Flavor' ordinal='6' />
+            <column datatype='string' name='Texture' ordinal='7' />
+            <column datatype='string' name='appearance_match' ordinal='8' />
+            <column datatype='integer' name='appearance_score' ordinal='9' />
+            <column datatype='string' name='flavor_match' ordinal='10' />
+            <column datatype='integer' name='flavor_score' ordinal='11' />
+            <column datatype='string' name='texture_match' ordinal='12' />
+            <column datatype='integer' name='texture_score' ordinal='13' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0447y0a0avhdqj1h4x4w71ksacxa' name='topic_categorization' table='[topic_categorization$]' type='table'>
+          <columns gridOrigin='A1:N660:no:A1:N660:0' header='yes' outcome='6'>
+            <column datatype='string' name='product' ordinal='0' />
+            <column datatype='integer' name='ol_scale' ordinal='1' />
+            <column datatype='string' name='ol_3_scaled' ordinal='2' />
+            <column datatype='string' name='liking_oe' ordinal='3' />
+            <column datatype='string' name='reduced_sentence' ordinal='4' />
+            <column datatype='string' name='Appearnce' ordinal='5' />
+            <column datatype='string' name='Flavor' ordinal='6' />
+            <column datatype='string' name='Texture' ordinal='7' />
+            <column datatype='string' name='appearance_match' ordinal='8' />
+            <column datatype='integer' name='appearance_score' ordinal='9' />
+            <column datatype='string' name='flavor_match' ordinal='10' />
+            <column datatype='integer' name='flavor_score' ordinal='11' />
+            <column datatype='string' name='texture_match' ordinal='12' />
+            <column datatype='integer' name='texture_score' ordinal='13' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[topic_categorization]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:N660:no:A1:N660:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>product</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[product]</local-name>
+            <parent-name>[topic_categorization]</parent-name>
+            <remote-alias>product</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[topic!categorization_3F5EBFE9CB5342E3886DC3FF5F178311]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ol_scale</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ol_scale]</local-name>
+            <parent-name>[topic_categorization]</parent-name>
+            <remote-alias>ol_scale</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[topic!categorization_3F5EBFE9CB5342E3886DC3FF5F178311]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ol_3_scaled</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ol_3_scaled]</local-name>
+            <parent-name>[topic_categorization]</parent-name>
+            <remote-alias>ol_3_scaled</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[topic!categorization_3F5EBFE9CB5342E3886DC3FF5F178311]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>liking_oe</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[liking_oe]</local-name>
+            <parent-name>[topic_categorization]</parent-name>
+            <remote-alias>liking_oe</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[topic!categorization_3F5EBFE9CB5342E3886DC3FF5F178311]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>reduced_sentence</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[reduced_sentence]</local-name>
+            <parent-name>[topic_categorization]</parent-name>
+            <remote-alias>reduced_sentence</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[topic!categorization_3F5EBFE9CB5342E3886DC3FF5F178311]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Appearnce</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Appearnce]</local-name>
+            <parent-name>[topic_categorization]</parent-name>
+            <remote-alias>Appearnce</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[topic!categorization_3F5EBFE9CB5342E3886DC3FF5F178311]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Flavor</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Flavor]</local-name>
+            <parent-name>[topic_categorization]</parent-name>
+            <remote-alias>Flavor</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[topic!categorization_3F5EBFE9CB5342E3886DC3FF5F178311]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Texture</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Texture]</local-name>
+            <parent-name>[topic_categorization]</parent-name>
+            <remote-alias>Texture</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[topic!categorization_3F5EBFE9CB5342E3886DC3FF5F178311]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>appearance_match</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[appearance_match]</local-name>
+            <parent-name>[topic_categorization]</parent-name>
+            <remote-alias>appearance_match</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[topic!categorization_3F5EBFE9CB5342E3886DC3FF5F178311]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>appearance_score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[appearance_score]</local-name>
+            <parent-name>[topic_categorization]</parent-name>
+            <remote-alias>appearance_score</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[topic!categorization_3F5EBFE9CB5342E3886DC3FF5F178311]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>flavor_match</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[flavor_match]</local-name>
+            <parent-name>[topic_categorization]</parent-name>
+            <remote-alias>flavor_match</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[topic!categorization_3F5EBFE9CB5342E3886DC3FF5F178311]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>flavor_score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[flavor_score]</local-name>
+            <parent-name>[topic_categorization]</parent-name>
+            <remote-alias>flavor_score</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[topic!categorization_3F5EBFE9CB5342E3886DC3FF5F178311]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>texture_match</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[texture_match]</local-name>
+            <parent-name>[topic_categorization]</parent-name>
+            <remote-alias>texture_match</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[topic!categorization_3F5EBFE9CB5342E3886DC3FF5F178311]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>texture_score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[texture_score]</local-name>
+            <parent-name>[topic_categorization]</parent-name>
+            <remote-alias>texture_score</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[topic!categorization_3F5EBFE9CB5342E3886DC3FF5F178311]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Appearance:qk]&quot;' value='Appearance' />
+          <alias key='&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Appearnce:qk]&quot;' value='appearance' />
+          <alias key='&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Flavor:qk]&quot;' value='Flavor' />
+          <alias key='&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Functionality:qk]&quot;' value='Functionality' />
+          <alias key='&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Location:qk]&quot;' value='Location' />
+          <alias key='&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Opening:qk]&quot;' value='Opening' />
+          <alias key='&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Packaging:qk]&quot;' value='Packaging' />
+          <alias key='&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:purchase_intent:qk]&quot;' value='Purchase Intent' />
+          <alias key='&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Texture:qk]&quot;' value='Texture' />
+        </aliases>
+      </column>
+      <column datatype='string' name='[Appearnce]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Flavor]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Location]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Opening]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Packaging]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Texture]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='topic_categorization' datatype='table' name='[__tableau_internal_object_id__].[topic!categorization_3F5EBFE9CB5342E3886DC3FF5F178311]' role='measure' type='quantitative' />
+      <column caption='Appearance Match' datatype='string' name='[appearance_match]' role='dimension' type='nominal' />
+      <column caption='Appearance Score' datatype='integer' name='[appearance_score]' role='measure' type='quantitative' />
+      <column caption='Flavor Match' datatype='string' name='[flavor_match]' role='dimension' type='nominal' />
+      <column caption='Flavor Score' datatype='integer' name='[flavor_score]' role='measure' type='quantitative' />
+      <column caption='Liking Oe' datatype='string' name='[liking_oe]' role='dimension' type='nominal' />
+      <column caption='Location Match' datatype='string' name='[location_match]' role='dimension' type='nominal' />
+      <column caption='Ol 3 Scaled' datatype='string' name='[ol_3_scaled]' role='dimension' type='nominal' />
+      <column caption='Ol Scale' datatype='integer' name='[ol_scale]' role='measure' type='quantitative' />
+      <column caption='Opening Match' datatype='string' name='[opening_match]' role='dimension' type='nominal' />
+      <column caption='Overall Liking 3 Cat' datatype='string' name='[overall_liking_3_cat]' role='dimension' type='nominal' />
+      <column caption='Packaging Match' datatype='string' name='[packaging_match]' role='dimension' type='nominal' />
+      <column caption='Product' datatype='string' name='[product]' role='dimension' type='nominal' />
+      <column caption='Reduced Sentence' datatype='string' name='[reduced_sentence]' role='dimension' type='nominal' />
+      <column caption='Texture Match' datatype='string' name='[texture_match]' role='dimension' type='nominal' />
+      <column caption='Texture Score' datatype='integer' name='[texture_score]' role='measure' type='quantitative' />
+      <column caption='Used Product' datatype='string' name='[used_product]' role='dimension' type='nominal' />
+      <column-instance column='[Appearnce]' derivation='Count' name='[cnt:Appearnce:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Flavor]' derivation='Count' name='[cnt:Flavor:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Location]' derivation='Count' name='[cnt:Location:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Opening]' derivation='Count' name='[cnt:Opening:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Packaging]' derivation='Count' name='[cnt:Packaging:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Texture]' derivation='Count' name='[cnt:Texture:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[packaging_match]' derivation='Count' name='[cnt:packaging_match:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[packaging_match]' derivation='None' name='[none:packaging_match:nk]' pivot='key' type='nominal' />
+      <column-instance column='[product]' derivation='None' name='[none:product:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Appearance:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:purchase_intent:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Packaging:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Appearnce:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Functionality:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Opening:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:packaging_match:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:Calculation_1560215837821956096:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:packaging_match:nk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Location:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Texture:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Flavor:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:product:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Pretzels Inc Micro Mini and Pretzels Inc Stick&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Treehouse Micro Mini and Treehouse Stick&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Treehouse Micro Mini and Pretzels Inc Stick&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='topic_categorization' id='topic!categorization_3F5EBFE9CB5342E3886DC3FF5F178311'>
+            <properties context=''>
+              <relation connection='excel-direct.0447y0a0avhdqj1h4x4w71ksacxa' name='topic_categorization' table='[topic_categorization$]' type='table'>
+                <columns gridOrigin='A1:N660:no:A1:N660:0' header='yes' outcome='6'>
+                  <column datatype='string' name='product' ordinal='0' />
+                  <column datatype='integer' name='ol_scale' ordinal='1' />
+                  <column datatype='string' name='ol_3_scaled' ordinal='2' />
+                  <column datatype='string' name='liking_oe' ordinal='3' />
+                  <column datatype='string' name='reduced_sentence' ordinal='4' />
+                  <column datatype='string' name='Appearnce' ordinal='5' />
+                  <column datatype='string' name='Flavor' ordinal='6' />
+                  <column datatype='string' name='Texture' ordinal='7' />
+                  <column datatype='string' name='appearance_match' ordinal='8' />
+                  <column datatype='integer' name='appearance_score' ordinal='9' />
+                  <column datatype='string' name='flavor_match' ordinal='10' />
+                  <column datatype='integer' name='flavor_score' ordinal='11' />
+                  <column datatype='string' name='texture_match' ordinal='12' />
+                  <column datatype='integer' name='texture_score' ordinal='13' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Flavor - Liking'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='open_ends_topic_categorization (remarkability_test_analysis)' name='federated.1u5cdcj116cdz314u6tnc1s77s0m' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1u5cdcj116cdz314u6tnc1s77s0m'>
+            <column datatype='string' name='[Flavor]' role='dimension' type='nominal' />
+            <column-instance column='[Flavor]' derivation='Count' name='[cnt:Flavor:qk]' pivot='key' type='quantitative' />
+            <column caption='Flavor Match' datatype='string' name='[flavor_match]' role='dimension' type='nominal' />
+            <column-instance column='[flavor_match]' derivation='None' name='[none:flavor_match:nk]' pivot='key' type='nominal' />
+            <column-instance column='[ol_3_scaled]' derivation='None' name='[none:ol_3_scaled:nk]' pivot='key' type='nominal' />
+            <column-instance column='[product]' derivation='None' name='[none:product:nk]' pivot='key' type='nominal' />
+            <column caption='Ol 3 Scaled' datatype='string' name='[ol_3_scaled]' role='dimension' type='nominal' />
+            <column caption='Product' datatype='string' name='[product]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:flavor_match:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:flavor_match:nk]' />
+              <groupfilter function='member' level='[none:flavor_match:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:ol_3_scaled:nk]'>
+            <groupfilter function='member' level='[none:ol_3_scaled:nk]' member='&quot;Liked&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:ol_3_scaled:nk]</column>
+            <column>[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:flavor_match:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:product:nk]' value='49' />
+            <format attr='width' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:product:nk]' value='293' />
+            <format attr='height' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:flavor_match:nk]' value='60' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height-header' value='60' />
+            <format attr='width' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:product:nk]' value='192' />
+            <format attr='height' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:ol_3_scaled:nk]' value='44' />
+            <format attr='width' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:flavor_match:nk]' value='200' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:product:nk]' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:product:nk]' />
+              <text column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Flavor:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:flavor_match:nk] / [federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:product:nk])</rows>
+        <cols>([federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:ol_3_scaled:nk] * [federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Flavor:qk])</cols>
+      </table>
+      <simple-id uuid='{BECF9094-CC2E-410F-AADA-21A3BC08DF60}' />
+    </worksheet>
+    <worksheet name='Opening - dislike'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='open_ends_topic_categorization (remarkability_test_analysis)' name='federated.1u5cdcj116cdz314u6tnc1s77s0m' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1u5cdcj116cdz314u6tnc1s77s0m'>
+            <column datatype='string' name='[Opening]' role='dimension' type='nominal' />
+            <column-instance column='[Opening]' derivation='Count' name='[cnt:Opening:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[opening_match]' derivation='None' name='[none:opening_match:nk]' pivot='key' type='nominal' />
+            <column-instance column='[overall_liking_3_cat]' derivation='None' name='[none:overall_liking_3_cat:nk]' pivot='key' type='nominal' />
+            <column-instance column='[used_product]' derivation='None' name='[none:used_product:nk]' pivot='key' type='nominal' />
+            <column caption='Opening Match' datatype='string' name='[opening_match]' role='dimension' type='nominal' />
+            <column caption='Overall Liking 3 Cat' datatype='string' name='[overall_liking_3_cat]' role='dimension' type='nominal' />
+            <column caption='Used Product' datatype='string' name='[used_product]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:opening_match:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:opening_match:nk]' />
+              <groupfilter function='member' level='[none:opening_match:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]'>
+            <groupfilter function='member' level='[none:overall_liking_3_cat:nk]' member='&quot;Dislike&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]</column>
+            <column>[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:opening_match:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Opening:qk]' scope='cols' value='# Responses' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='49' />
+            <format attr='width' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='293' />
+            <format attr='height' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:opening_match:nk]' value='60' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='192' />
+            <format attr='height-header' value='60' />
+            <format attr='height' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]' value='44' />
+            <format attr='width' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:opening_match:nk]' value='200' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' />
+              <text column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Opening:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:opening_match:nk] / [federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk])</rows>
+        <cols>([federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk] * [federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Opening:qk])</cols>
+      </table>
+      <simple-id uuid='{4BD78F27-A38D-4ECB-AE09-7C3883D134E6}' />
+    </worksheet>
+    <worksheet name='Opening - nlod'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='open_ends_topic_categorization (remarkability_test_analysis)' name='federated.1u5cdcj116cdz314u6tnc1s77s0m' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1u5cdcj116cdz314u6tnc1s77s0m'>
+            <column datatype='string' name='[Opening]' role='dimension' type='nominal' />
+            <column-instance column='[Opening]' derivation='Count' name='[cnt:Opening:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[opening_match]' derivation='None' name='[none:opening_match:nk]' pivot='key' type='nominal' />
+            <column-instance column='[overall_liking_3_cat]' derivation='None' name='[none:overall_liking_3_cat:nk]' pivot='key' type='nominal' />
+            <column-instance column='[used_product]' derivation='None' name='[none:used_product:nk]' pivot='key' type='nominal' />
+            <column caption='Opening Match' datatype='string' name='[opening_match]' role='dimension' type='nominal' />
+            <column caption='Overall Liking 3 Cat' datatype='string' name='[overall_liking_3_cat]' role='dimension' type='nominal' />
+            <column caption='Used Product' datatype='string' name='[used_product]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:opening_match:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:opening_match:nk]' />
+              <groupfilter function='member' level='[none:opening_match:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]'>
+            <groupfilter function='member' level='[none:overall_liking_3_cat:nk]' member='&quot;Neither Like nor Dislike&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]</column>
+            <column>[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:opening_match:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Opening:qk]' scope='cols' value='# Responses' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='49' />
+            <format attr='width' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='293' />
+            <format attr='height' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:opening_match:nk]' value='60' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='192' />
+            <format attr='height-header' value='60' />
+            <format attr='height' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]' value='44' />
+            <format attr='width' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:opening_match:nk]' value='200' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' />
+              <text column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Opening:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:opening_match:nk] / [federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk])</rows>
+        <cols>([federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk] * [federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Opening:qk])</cols>
+      </table>
+      <simple-id uuid='{0185472A-2908-4834-9EBC-4E212EA6F1B5}' />
+    </worksheet>
+    <worksheet name='Overall Preference (2)'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='open_ends_topic_categorization (remarkability_test_analysis)' name='federated.1u5cdcj116cdz314u6tnc1s77s0m' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1u5cdcj116cdz314u6tnc1s77s0m'>
+            <column datatype='string' name='[Flavor]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Location]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Opening]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Packaging]' role='dimension' type='nominal' />
+            <column-instance column='[Flavor]' derivation='Count' name='[cnt:Flavor:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Location]' derivation='Count' name='[cnt:Location:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Opening]' derivation='Count' name='[cnt:Opening:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Packaging]' derivation='Count' name='[cnt:Packaging:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[overall_liking_3_cat]' derivation='None' name='[none:overall_liking_3_cat:nk]' pivot='key' type='nominal' />
+            <column-instance column='[used_product]' derivation='None' name='[none:used_product:nk]' pivot='key' type='nominal' />
+            <column caption='Overall Liking 3 Cat' datatype='string' name='[overall_liking_3_cat]' role='dimension' type='nominal' />
+            <column caption='Used Product' datatype='string' name='[used_product]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Opening:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Packaging:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Location:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Appearance:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Flavor:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Opening:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Packaging:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Location:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]'>
+            <groupfilter function='member' level='[none:overall_liking_3_cat:nk]' member='&quot;Like&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <manual-sort column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;pillsbury&quot;</bucket>
+              <bucket>&quot;nestle&quot;</bucket>
+              <bucket>&quot;408&quot;</bucket>
+              <bucket>&quot;621&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1u5cdcj116cdz314u6tnc1s77s0m].[:Measure Names]</column>
+            <column>[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[Multiple Values]' scope='cols' value='' />
+            <format attr='display' class='0' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[Multiple Values]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[Multiple Values]' value='N' />
+            <format attr='height' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='49' />
+            <format attr='width' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='293' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='192' />
+            <format attr='height-header' value='60' />
+            <format attr='height' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]' value='44' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' />
+              <text column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1u5cdcj116cdz314u6tnc1s77s0m].[:Measure Names] / [federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk])</rows>
+        <cols>([federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk] * [federated.1u5cdcj116cdz314u6tnc1s77s0m].[Multiple Values])</cols>
+      </table>
+      <simple-id uuid='{233A45F8-9A18-48FD-82DA-548CC3346BAB}' />
+    </worksheet>
+    <worksheet name='Packagin - Dislike'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='open_ends_topic_categorization (remarkability_test_analysis)' name='federated.1u5cdcj116cdz314u6tnc1s77s0m' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1u5cdcj116cdz314u6tnc1s77s0m'>
+            <column-instance column='[packaging_match]' derivation='Count' name='[cnt:packaging_match:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[overall_liking_3_cat]' derivation='None' name='[none:overall_liking_3_cat:nk]' pivot='key' type='nominal' />
+            <column-instance column='[packaging_match]' derivation='None' name='[none:packaging_match:nk]' pivot='key' type='nominal' />
+            <column-instance column='[used_product]' derivation='None' name='[none:used_product:nk]' pivot='key' type='nominal' />
+            <column caption='Overall Liking 3 Cat' datatype='string' name='[overall_liking_3_cat]' role='dimension' type='nominal' />
+            <column caption='Packaging Match' datatype='string' name='[packaging_match]' role='dimension' type='nominal' />
+            <column caption='Used Product' datatype='string' name='[used_product]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]'>
+            <groupfilter function='member' level='[none:overall_liking_3_cat:nk]' member='&quot;Dislike&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:packaging_match:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:packaging_match:nk]' />
+              <groupfilter function='member' level='[none:packaging_match:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]</column>
+            <column>[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:packaging_match:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:packaging_match:qk]' scope='cols' value='# Responses' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='49' />
+            <format attr='width' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='293' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='56' />
+            <format attr='height-header' value='60' />
+            <format attr='height' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]' value='44' />
+            <format attr='width' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:packaging_match:nk]' value='188' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' />
+              <text column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:packaging_match:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:packaging_match:nk] / [federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk])</rows>
+        <cols>([federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk] * [federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:packaging_match:qk])</cols>
+      </table>
+      <simple-id uuid='{9F0C71A6-8803-4D75-9503-FF4CAA667019}' />
+    </worksheet>
+    <worksheet name='Packagin - Like'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='open_ends_topic_categorization (remarkability_test_analysis)' name='federated.1u5cdcj116cdz314u6tnc1s77s0m' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1u5cdcj116cdz314u6tnc1s77s0m'>
+            <column-instance column='[packaging_match]' derivation='Count' name='[cnt:packaging_match:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[overall_liking_3_cat]' derivation='None' name='[none:overall_liking_3_cat:nk]' pivot='key' type='nominal' />
+            <column-instance column='[packaging_match]' derivation='None' name='[none:packaging_match:nk]' pivot='key' type='nominal' />
+            <column-instance column='[used_product]' derivation='None' name='[none:used_product:nk]' pivot='key' type='nominal' />
+            <column caption='Overall Liking 3 Cat' datatype='string' name='[overall_liking_3_cat]' role='dimension' type='nominal' />
+            <column caption='Packaging Match' datatype='string' name='[packaging_match]' role='dimension' type='nominal' />
+            <column caption='Used Product' datatype='string' name='[used_product]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]'>
+            <groupfilter function='member' level='[none:overall_liking_3_cat:nk]' member='&quot;Like&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:packaging_match:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:packaging_match:nk]' />
+              <groupfilter function='member' level='[none:packaging_match:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]</column>
+            <column>[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:packaging_match:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:packaging_match:qk]' scope='cols' value='# Responses' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='49' />
+            <format attr='width' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='293' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='56' />
+            <format attr='height-header' value='60' />
+            <format attr='height' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]' value='44' />
+            <format attr='width' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:packaging_match:nk]' value='188' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' />
+              <text column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:packaging_match:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:packaging_match:nk] / [federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk])</rows>
+        <cols>([federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk] * [federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:packaging_match:qk])</cols>
+      </table>
+      <simple-id uuid='{71AEDCE5-5CAB-4F76-88A6-73B67C905056}' />
+    </worksheet>
+    <worksheet name='Packagin - nlod'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='open_ends_topic_categorization (remarkability_test_analysis)' name='federated.1u5cdcj116cdz314u6tnc1s77s0m' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1u5cdcj116cdz314u6tnc1s77s0m'>
+            <column-instance column='[packaging_match]' derivation='Count' name='[cnt:packaging_match:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[overall_liking_3_cat]' derivation='None' name='[none:overall_liking_3_cat:nk]' pivot='key' type='nominal' />
+            <column-instance column='[packaging_match]' derivation='None' name='[none:packaging_match:nk]' pivot='key' type='nominal' />
+            <column-instance column='[used_product]' derivation='None' name='[none:used_product:nk]' pivot='key' type='nominal' />
+            <column caption='Overall Liking 3 Cat' datatype='string' name='[overall_liking_3_cat]' role='dimension' type='nominal' />
+            <column caption='Packaging Match' datatype='string' name='[packaging_match]' role='dimension' type='nominal' />
+            <column caption='Used Product' datatype='string' name='[used_product]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]'>
+            <groupfilter function='member' level='[none:overall_liking_3_cat:nk]' member='&quot;Neither Like nor Dislike&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:packaging_match:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:packaging_match:nk]' />
+              <groupfilter function='member' level='[none:packaging_match:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]</column>
+            <column>[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:packaging_match:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:packaging_match:qk]' scope='cols' value='# Responses' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='49' />
+            <format attr='width' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='293' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='56' />
+            <format attr='height-header' value='60' />
+            <format attr='height' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]' value='44' />
+            <format attr='width' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:packaging_match:nk]' value='188' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' />
+              <text column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:packaging_match:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:packaging_match:nk] / [federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk])</rows>
+        <cols>([federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk] * [federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:packaging_match:qk])</cols>
+      </table>
+      <simple-id uuid='{68E71C3B-C770-4BF4-AD05-8C54391F8299}' />
+    </worksheet>
+    <worksheet name='Topic Categorization'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Liking Categorization</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='open_ends_topic_categorization (remarkability_test_analysis)' name='federated.1u5cdcj116cdz314u6tnc1s77s0m' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1u5cdcj116cdz314u6tnc1s77s0m'>
+            <column datatype='string' name='[Appearnce]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Flavor]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Location]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Texture]' role='dimension' type='nominal' />
+            <column-instance column='[Appearnce]' derivation='Count' name='[cnt:Appearnce:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Flavor]' derivation='Count' name='[cnt:Flavor:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Location]' derivation='Count' name='[cnt:Location:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Texture]' derivation='Count' name='[cnt:Texture:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ol_3_scaled]' derivation='None' name='[none:ol_3_scaled:nk]' pivot='key' type='nominal' />
+            <column-instance column='[product]' derivation='None' name='[none:product:nk]' pivot='key' type='nominal' />
+            <column caption='Ol 3 Scaled' datatype='string' name='[ol_3_scaled]' role='dimension' type='nominal' />
+            <column caption='Product' datatype='string' name='[product]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Appearnce:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Flavor:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Texture:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Appearnce:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Flavor:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Location:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:ol_3_scaled:nk]'>
+            <groupfilter function='member' level='[none:ol_3_scaled:nk]' member='&quot;Liked&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1u5cdcj116cdz314u6tnc1s77s0m].[:Measure Names]</column>
+            <column>[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:ol_3_scaled:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[Multiple Values]' scope='cols' value='' />
+            <format attr='display' class='0' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[Multiple Values]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[Multiple Values]' value='N' />
+            <format attr='height' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:product:nk]' value='49' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:product:nk]' value='144' />
+            <format attr='width' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[:Measure Names]' value='184' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:product:nk]' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:product:nk]' />
+              <text column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1u5cdcj116cdz314u6tnc1s77s0m].[:Measure Names] / [federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:product:nk])</rows>
+        <cols>[federated.1u5cdcj116cdz314u6tnc1s77s0m].[Multiple Values]</cols>
+      </table>
+      <simple-id uuid='{0643B5BC-21A0-41B2-9A3D-9160F2404BB9}' />
+    </worksheet>
+    <worksheet name='location - Dislike'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='open_ends_topic_categorization (remarkability_test_analysis)' name='federated.1u5cdcj116cdz314u6tnc1s77s0m' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1u5cdcj116cdz314u6tnc1s77s0m'>
+            <column-instance column='[location_match]' derivation='Count' name='[cnt:location_match:qk]' pivot='key' type='quantitative' />
+            <column caption='Location Match' datatype='string' name='[location_match]' role='dimension' type='nominal' />
+            <column-instance column='[location_match]' derivation='None' name='[none:location_match:nk]' pivot='key' type='nominal' />
+            <column-instance column='[overall_liking_3_cat]' derivation='None' name='[none:overall_liking_3_cat:nk]' pivot='key' type='nominal' />
+            <column-instance column='[used_product]' derivation='None' name='[none:used_product:nk]' pivot='key' type='nominal' />
+            <column caption='Overall Liking 3 Cat' datatype='string' name='[overall_liking_3_cat]' role='dimension' type='nominal' />
+            <column caption='Used Product' datatype='string' name='[used_product]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:location_match:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:location_match:nk]' />
+              <groupfilter function='member' level='[none:location_match:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]'>
+            <groupfilter function='member' level='[none:overall_liking_3_cat:nk]' member='&quot;Dislike&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]</column>
+            <column>[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:location_match:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:location_match:qk]' scope='cols' value='# Responses' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='49' />
+            <format attr='width' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='293' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='112' />
+            <format attr='height-header' value='60' />
+            <format attr='height' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]' value='44' />
+            <format attr='width' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:location_match:nk]' value='140' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' />
+              <text column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:location_match:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:location_match:nk] / [federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk])</rows>
+        <cols>([federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk] * [federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:location_match:qk])</cols>
+      </table>
+      <simple-id uuid='{EE94AD2B-901A-4A31-87AB-8F950279A944}' />
+    </worksheet>
+    <worksheet name='location - Like'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='open_ends_topic_categorization (remarkability_test_analysis)' name='federated.1u5cdcj116cdz314u6tnc1s77s0m' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1u5cdcj116cdz314u6tnc1s77s0m'>
+            <column-instance column='[location_match]' derivation='Count' name='[cnt:location_match:qk]' pivot='key' type='quantitative' />
+            <column caption='Location Match' datatype='string' name='[location_match]' role='dimension' type='nominal' />
+            <column-instance column='[location_match]' derivation='None' name='[none:location_match:nk]' pivot='key' type='nominal' />
+            <column-instance column='[overall_liking_3_cat]' derivation='None' name='[none:overall_liking_3_cat:nk]' pivot='key' type='nominal' />
+            <column-instance column='[used_product]' derivation='None' name='[none:used_product:nk]' pivot='key' type='nominal' />
+            <column caption='Overall Liking 3 Cat' datatype='string' name='[overall_liking_3_cat]' role='dimension' type='nominal' />
+            <column caption='Used Product' datatype='string' name='[used_product]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:location_match:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:location_match:nk]' />
+              <groupfilter function='member' level='[none:location_match:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]'>
+            <groupfilter function='member' level='[none:overall_liking_3_cat:nk]' member='&quot;Like&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]</column>
+            <column>[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:location_match:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:location_match:qk]' scope='cols' value='# Responses' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='49' />
+            <format attr='width' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='293' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='112' />
+            <format attr='height-header' value='60' />
+            <format attr='height' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]' value='44' />
+            <format attr='width' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:location_match:nk]' value='140' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' />
+              <text column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:location_match:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:location_match:nk] / [federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk])</rows>
+        <cols>([federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk] * [federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:location_match:qk])</cols>
+      </table>
+      <simple-id uuid='{6559ECCC-A259-4002-AA56-6F12B4CCCE95}' />
+    </worksheet>
+    <worksheet name='location - nlod'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='open_ends_topic_categorization (remarkability_test_analysis)' name='federated.1u5cdcj116cdz314u6tnc1s77s0m' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1u5cdcj116cdz314u6tnc1s77s0m'>
+            <column-instance column='[location_match]' derivation='Count' name='[cnt:location_match:qk]' pivot='key' type='quantitative' />
+            <column caption='Location Match' datatype='string' name='[location_match]' role='dimension' type='nominal' />
+            <column-instance column='[location_match]' derivation='None' name='[none:location_match:nk]' pivot='key' type='nominal' />
+            <column-instance column='[overall_liking_3_cat]' derivation='None' name='[none:overall_liking_3_cat:nk]' pivot='key' type='nominal' />
+            <column-instance column='[used_product]' derivation='None' name='[none:used_product:nk]' pivot='key' type='nominal' />
+            <column caption='Overall Liking 3 Cat' datatype='string' name='[overall_liking_3_cat]' role='dimension' type='nominal' />
+            <column caption='Used Product' datatype='string' name='[used_product]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:location_match:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:location_match:nk]' />
+              <groupfilter function='member' level='[none:location_match:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]'>
+            <groupfilter function='member' level='[none:overall_liking_3_cat:nk]' member='&quot;Neither Like nor Dislike&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]</column>
+            <column>[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:location_match:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:location_match:qk]' scope='cols' value='# Responses' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='49' />
+            <format attr='width' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='293' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='112' />
+            <format attr='height-header' value='60' />
+            <format attr='height' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]' value='44' />
+            <format attr='width' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:location_match:nk]' value='140' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' />
+              <text column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:location_match:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:location_match:nk] / [federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk])</rows>
+        <cols>([federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk] * [federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:location_match:qk])</cols>
+      </table>
+      <simple-id uuid='{46D9519F-1B40-4BAD-8BE8-876B1F0DC9D3}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='44'>
+    <window class='worksheet' name='Topic Categorization'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='300'>
+            <card param='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[:Measure Names]' show-morefewerbutton='false' type='filter' />
+            <card pane-specification-id='1' param='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:product:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{78686103-F73B-4FBD-898A-62A2A13138EE}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Overall Preference (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='290'>
+            <card param='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]' type='filter' />
+            <card param='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[:Measure Names]' show-morefewerbutton='false' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E89A8C5A-0F5B-4088-B62B-E0FAC97D95F2}' />
+    </window>
+    <window class='worksheet' name='Flavor - Liking'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:product:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{E350EC6E-D035-41C9-9E66-7E41739CF889}' />
+    </window>
+    <window class='worksheet' name='Opening - dislike'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='244'>
+            <card param='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]' type='filter' />
+            <card pane-specification-id='1' param='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{93AA539E-976A-4BB7-85AB-FE384CE339F1}' />
+    </window>
+    <window class='worksheet' name='Opening - nlod'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='256'>
+            <card param='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]' type='filter' />
+            <card pane-specification-id='1' param='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{51FA4054-DAE0-498B-A68C-349E08CD7874}' />
+    </window>
+    <window class='worksheet' name='Packagin - Like'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='244'>
+            <card param='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]' type='filter' />
+            <card pane-specification-id='1' param='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{6C9B04CA-0B35-4E26-837D-2C87185A4AC5}' />
+    </window>
+    <window class='worksheet' name='Packagin - Dislike'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='244'>
+            <card param='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]' type='filter' />
+            <card pane-specification-id='1' param='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{3CB043F2-47C9-4637-8CEF-D4C683A79CF2}' />
+    </window>
+    <window class='worksheet' name='Packagin - nlod'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='244'>
+            <card param='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]' type='filter' />
+            <card pane-specification-id='1' param='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{9E165D45-C63D-4D0D-B800-AA4D79F41659}' />
+    </window>
+    <window class='worksheet' name='location - Like'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='244'>
+            <card param='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]' type='filter' />
+            <card pane-specification-id='2' param='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{9A450077-E588-402F-8D63-84E55B1EC11E}' />
+    </window>
+    <window class='worksheet' name='location - Dislike'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='244'>
+            <card param='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]' type='filter' />
+            <card pane-specification-id='2' param='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{D6816D0B-7193-4BEF-B8E9-D4EC336D3B96}' />
+    </window>
+    <window class='worksheet' name='location - nlod'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='244'>
+            <card param='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_liking_3_cat:nk]' type='filter' />
+            <card pane-specification-id='2' param='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:used_product:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{E7F70733-AC0B-4A3C-9867-C1F1789F9918}' />
+    </window>
+  </windows>
+</workbook>

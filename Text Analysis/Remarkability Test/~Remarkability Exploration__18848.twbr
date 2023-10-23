@@ -1,0 +1,682 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.22.0611.0332                               -->
+<workbook original-version='18.1' source-build='2021.4.8 (20214.22.0611.0332)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.discoverpane.show' value='false' />
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='open_ends_topic_categorization (remarkability_test_analysis)' inline='true' name='federated.1u5cdcj116cdz314u6tnc1s77s0m' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='remarkability_test_analysis' name='excel-direct.09rikay1qmc895192u892042rht2'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='C:/Users/g654674/OneDrive - General Mills/Work_OneDrive/PGI/Text Analytics/Remarkability Test/remarkability_test_analysis.xlsx' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+          <named-connection caption='remarkability_test_analysis (2)' name='excel-direct.08i5d6n0hr3du214c3cb50f7ibz4'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='C:/Users/g654674/OneDrive - General Mills/Work_OneDrive/PGI/Text Analytics/Remarkability Test/remarkability_test_analysis.xlsx' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.09rikay1qmc895192u892042rht2' name='open_ends_topic_categorization' table='[open_ends_topic_categorization$]' type='table'>
+          <columns gridOrigin='A1:S228:no:A1:S228:1' header='yes' lost='0' outcome='1' processed='480'>
+            <column datatype='string' name='overall_preference' ordinal='0' />
+            <column datatype='string' name='op_oe' ordinal='1' />
+            <column datatype='string' name='reduced_sentence' ordinal='2' />
+            <column datatype='string' name='Appearance' ordinal='3' />
+            <column datatype='string' name='Texture' ordinal='4' />
+            <column datatype='string' name='Flavor' ordinal='5' />
+            <column datatype='string' name='purchase_intent' ordinal='6' />
+            <column datatype='string' name='Packaging' ordinal='7' />
+            <column datatype='string' name='Functionality' ordinal='8' />
+            <column datatype='string' name='appearance_match' ordinal='9' />
+            <column datatype='integer' name='appearance_score' ordinal='10' />
+            <column datatype='string' name='texture_match' ordinal='11' />
+            <column datatype='integer' name='texture_score' ordinal='12' />
+            <column datatype='string' name='flavor_match' ordinal='13' />
+            <column datatype='integer' name='flavor_score' ordinal='14' />
+            <column datatype='string' name='packaging_match' ordinal='15' />
+            <column datatype='integer' name='packaging_score' ordinal='16' />
+            <column datatype='string' name='functionality_match' ordinal='17' />
+            <column datatype='integer' name='functionality_score' ordinal='18' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.09rikay1qmc895192u892042rht2' name='open_ends_topic_categorization' table='[open_ends_topic_categorization$]' type='table'>
+          <columns gridOrigin='A1:S228:no:A1:S228:1' header='yes' lost='0' outcome='1' processed='480'>
+            <column datatype='string' name='overall_preference' ordinal='0' />
+            <column datatype='string' name='op_oe' ordinal='1' />
+            <column datatype='string' name='reduced_sentence' ordinal='2' />
+            <column datatype='string' name='Appearance' ordinal='3' />
+            <column datatype='string' name='Texture' ordinal='4' />
+            <column datatype='string' name='Flavor' ordinal='5' />
+            <column datatype='string' name='purchase_intent' ordinal='6' />
+            <column datatype='string' name='Packaging' ordinal='7' />
+            <column datatype='string' name='Functionality' ordinal='8' />
+            <column datatype='string' name='appearance_match' ordinal='9' />
+            <column datatype='integer' name='appearance_score' ordinal='10' />
+            <column datatype='string' name='texture_match' ordinal='11' />
+            <column datatype='integer' name='texture_score' ordinal='12' />
+            <column datatype='string' name='flavor_match' ordinal='13' />
+            <column datatype='integer' name='flavor_score' ordinal='14' />
+            <column datatype='string' name='packaging_match' ordinal='15' />
+            <column datatype='integer' name='packaging_score' ordinal='16' />
+            <column datatype='string' name='functionality_match' ordinal='17' />
+            <column datatype='integer' name='functionality_score' ordinal='18' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[open_ends_topic_categorization]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:S228:no:A1:S228:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>480</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>overall_preference</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[overall_preference]</local-name>
+            <parent-name>[open_ends_topic_categorization]</parent-name>
+            <remote-alias>overall_preference</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[open!ends!topic!categorization_6098942C873F4CDFBC0489325B6384DD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>op_oe</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[op_oe]</local-name>
+            <parent-name>[open_ends_topic_categorization]</parent-name>
+            <remote-alias>op_oe</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[open!ends!topic!categorization_6098942C873F4CDFBC0489325B6384DD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>reduced_sentence</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[reduced_sentence]</local-name>
+            <parent-name>[open_ends_topic_categorization]</parent-name>
+            <remote-alias>reduced_sentence</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[open!ends!topic!categorization_6098942C873F4CDFBC0489325B6384DD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Appearance</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Appearance]</local-name>
+            <parent-name>[open_ends_topic_categorization]</parent-name>
+            <remote-alias>Appearance</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[open!ends!topic!categorization_6098942C873F4CDFBC0489325B6384DD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Texture</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Texture]</local-name>
+            <parent-name>[open_ends_topic_categorization]</parent-name>
+            <remote-alias>Texture</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[open!ends!topic!categorization_6098942C873F4CDFBC0489325B6384DD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Flavor</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Flavor]</local-name>
+            <parent-name>[open_ends_topic_categorization]</parent-name>
+            <remote-alias>Flavor</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[open!ends!topic!categorization_6098942C873F4CDFBC0489325B6384DD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>purchase_intent</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[purchase_intent]</local-name>
+            <parent-name>[open_ends_topic_categorization]</parent-name>
+            <remote-alias>purchase_intent</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[open!ends!topic!categorization_6098942C873F4CDFBC0489325B6384DD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Packaging</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Packaging]</local-name>
+            <parent-name>[open_ends_topic_categorization]</parent-name>
+            <remote-alias>Packaging</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[open!ends!topic!categorization_6098942C873F4CDFBC0489325B6384DD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Functionality</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Functionality]</local-name>
+            <parent-name>[open_ends_topic_categorization]</parent-name>
+            <remote-alias>Functionality</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[open!ends!topic!categorization_6098942C873F4CDFBC0489325B6384DD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>appearance_match</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[appearance_match]</local-name>
+            <parent-name>[open_ends_topic_categorization]</parent-name>
+            <remote-alias>appearance_match</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[open!ends!topic!categorization_6098942C873F4CDFBC0489325B6384DD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>appearance_score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[appearance_score]</local-name>
+            <parent-name>[open_ends_topic_categorization]</parent-name>
+            <remote-alias>appearance_score</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[open!ends!topic!categorization_6098942C873F4CDFBC0489325B6384DD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>texture_match</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[texture_match]</local-name>
+            <parent-name>[open_ends_topic_categorization]</parent-name>
+            <remote-alias>texture_match</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[open!ends!topic!categorization_6098942C873F4CDFBC0489325B6384DD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>texture_score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[texture_score]</local-name>
+            <parent-name>[open_ends_topic_categorization]</parent-name>
+            <remote-alias>texture_score</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[open!ends!topic!categorization_6098942C873F4CDFBC0489325B6384DD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>flavor_match</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[flavor_match]</local-name>
+            <parent-name>[open_ends_topic_categorization]</parent-name>
+            <remote-alias>flavor_match</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[open!ends!topic!categorization_6098942C873F4CDFBC0489325B6384DD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>flavor_score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[flavor_score]</local-name>
+            <parent-name>[open_ends_topic_categorization]</parent-name>
+            <remote-alias>flavor_score</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[open!ends!topic!categorization_6098942C873F4CDFBC0489325B6384DD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>packaging_match</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[packaging_match]</local-name>
+            <parent-name>[open_ends_topic_categorization]</parent-name>
+            <remote-alias>packaging_match</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[open!ends!topic!categorization_6098942C873F4CDFBC0489325B6384DD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>packaging_score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[packaging_score]</local-name>
+            <parent-name>[open_ends_topic_categorization]</parent-name>
+            <remote-alias>packaging_score</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[open!ends!topic!categorization_6098942C873F4CDFBC0489325B6384DD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>functionality_match</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[functionality_match]</local-name>
+            <parent-name>[open_ends_topic_categorization]</parent-name>
+            <remote-alias>functionality_match</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[open!ends!topic!categorization_6098942C873F4CDFBC0489325B6384DD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>functionality_score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[functionality_score]</local-name>
+            <parent-name>[open_ends_topic_categorization]</parent-name>
+            <remote-alias>functionality_score</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[open!ends!topic!categorization_6098942C873F4CDFBC0489325B6384DD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Appearance:qk]&quot;' value='Appearance' />
+          <alias key='&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Flavor:qk]&quot;' value='Flavor' />
+          <alias key='&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Functionality:qk]&quot;' value='Functionality' />
+          <alias key='&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Packaging:qk]&quot;' value='Packaging' />
+          <alias key='&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:purchase_intent:qk]&quot;' value='Purchase Intent' />
+          <alias key='&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Texture:qk]&quot;' value='Texture' />
+        </aliases>
+      </column>
+      <column datatype='string' name='[Appearance]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Flavor]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Functionality]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Packaging]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Texture]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='open_ends_topic_categorization' datatype='table' name='[__tableau_internal_object_id__].[open!ends!topic!categorization_6098942C873F4CDFBC0489325B6384DD]' role='measure' type='quantitative' />
+      <column caption='Appearance Match' datatype='string' name='[appearance_match]' role='dimension' type='nominal' />
+      <column caption='Appearance Score' datatype='integer' name='[appearance_score]' role='measure' type='quantitative' />
+      <column caption='Flavor Match' datatype='string' name='[flavor_match]' role='dimension' type='nominal' />
+      <column caption='Flavor Score' datatype='integer' name='[flavor_score]' role='measure' type='quantitative' />
+      <column caption='Functionality Match' datatype='string' name='[functionality_match]' role='dimension' type='nominal' />
+      <column caption='Functionality Score' datatype='integer' name='[functionality_score]' role='measure' type='quantitative' />
+      <column caption='Op Oe' datatype='string' name='[op_oe]' role='dimension' type='nominal' />
+      <column caption='Overall Preference' datatype='string' name='[overall_preference]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;nestle&quot;' value='Nestle Toll House Cookie Dough' />
+          <alias key='&quot;pillsbury&quot;' value='Pillsbury Chocolate Chip Cookie Dough' />
+        </aliases>
+      </column>
+      <column caption='Packaging Match' datatype='string' name='[packaging_match]' role='dimension' type='nominal' />
+      <column caption='Packaging Score' datatype='integer' name='[packaging_score]' role='measure' type='quantitative' />
+      <column caption='Purchase Intent' datatype='string' name='[purchase_intent]' role='dimension' type='nominal' />
+      <column caption='Reduced Sentence' datatype='string' name='[reduced_sentence]' role='dimension' type='nominal' />
+      <column caption='Texture Match' datatype='string' name='[texture_match]' role='dimension' type='nominal' />
+      <column caption='Texture Score' datatype='integer' name='[texture_score]' role='measure' type='quantitative' />
+      <column-instance column='[Appearance]' derivation='Count' name='[cnt:Appearance:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Flavor]' derivation='Count' name='[cnt:Flavor:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Functionality]' derivation='Count' name='[cnt:Functionality:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Packaging]' derivation='Count' name='[cnt:Packaging:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Texture]' derivation='Count' name='[cnt:Texture:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[purchase_intent]' derivation='Count' name='[cnt:purchase_intent:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[overall_preference]' derivation='None' name='[none:overall_preference:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:overall_preference:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;nestle&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;pillsbury&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Appearance:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:purchase_intent:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Packaging:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Functionality:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Texture:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Flavor:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='open_ends_topic_categorization' id='open!ends!topic!categorization_6098942C873F4CDFBC0489325B6384DD'>
+            <properties context=''>
+              <relation connection='excel-direct.09rikay1qmc895192u892042rht2' name='open_ends_topic_categorization' table='[open_ends_topic_categorization$]' type='table'>
+                <columns gridOrigin='A1:S228:no:A1:S228:1' header='yes' lost='0' outcome='1' processed='480'>
+                  <column datatype='string' name='overall_preference' ordinal='0' />
+                  <column datatype='string' name='op_oe' ordinal='1' />
+                  <column datatype='string' name='reduced_sentence' ordinal='2' />
+                  <column datatype='string' name='Appearance' ordinal='3' />
+                  <column datatype='string' name='Texture' ordinal='4' />
+                  <column datatype='string' name='Flavor' ordinal='5' />
+                  <column datatype='string' name='purchase_intent' ordinal='6' />
+                  <column datatype='string' name='Packaging' ordinal='7' />
+                  <column datatype='string' name='Functionality' ordinal='8' />
+                  <column datatype='string' name='appearance_match' ordinal='9' />
+                  <column datatype='integer' name='appearance_score' ordinal='10' />
+                  <column datatype='string' name='texture_match' ordinal='11' />
+                  <column datatype='integer' name='texture_score' ordinal='12' />
+                  <column datatype='string' name='flavor_match' ordinal='13' />
+                  <column datatype='integer' name='flavor_score' ordinal='14' />
+                  <column datatype='string' name='packaging_match' ordinal='15' />
+                  <column datatype='integer' name='packaging_score' ordinal='16' />
+                  <column datatype='string' name='functionality_match' ordinal='17' />
+                  <column datatype='integer' name='functionality_score' ordinal='18' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Overall Preference'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Overall Preference</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='open_ends_topic_categorization (remarkability_test_analysis)' name='federated.1u5cdcj116cdz314u6tnc1s77s0m' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1u5cdcj116cdz314u6tnc1s77s0m'>
+            <column datatype='string' name='[Appearance]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Flavor]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Functionality]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Packaging]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Texture]' role='dimension' type='nominal' />
+            <column-instance column='[Appearance]' derivation='Count' name='[cnt:Appearance:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Flavor]' derivation='Count' name='[cnt:Flavor:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Functionality]' derivation='Count' name='[cnt:Functionality:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Packaging]' derivation='Count' name='[cnt:Packaging:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Texture]' derivation='Count' name='[cnt:Texture:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[purchase_intent]' derivation='Count' name='[cnt:purchase_intent:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[overall_preference]' derivation='None' name='[none:overall_preference:nk]' pivot='key' type='nominal' />
+            <column caption='Overall Preference' datatype='string' name='[overall_preference]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;nestle&quot;' value='Nestle Toll House Cookie Dough' />
+                <alias key='&quot;pillsbury&quot;' value='Pillsbury Chocolate Chip Cookie Dough' />
+              </aliases>
+            </column>
+            <column caption='Purchase Intent' datatype='string' name='[purchase_intent]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Appearance:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Flavor:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Functionality:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Packaging:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:purchase_intent:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u5cdcj116cdz314u6tnc1s77s0m].[cnt:Texture:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_preference:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;pillsbury&quot;</bucket>
+              <bucket>&quot;nestle&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1u5cdcj116cdz314u6tnc1s77s0m].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[Multiple Values]' scope='cols' value='' />
+            <format attr='display' class='0' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[Multiple Values]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[Multiple Values]' value='N' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_preference:nk]' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_preference:nk]' />
+              <text column='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1u5cdcj116cdz314u6tnc1s77s0m].[:Measure Names] / [federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_preference:nk])</rows>
+        <cols>[federated.1u5cdcj116cdz314u6tnc1s77s0m].[Multiple Values]</cols>
+      </table>
+      <simple-id uuid='{0643B5BC-21A0-41B2-9A3D-9160F2404BB9}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{42D7E865-8A1C-4A0A-BF30-D4963C28296C}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='44'>
+    <window class='worksheet' maximized='true' name='Overall Preference'>
+      <cards>
+        <edge name='left'>
+          <strip size='288'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='290'>
+            <card param='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[:Measure Names]' show-morefewerbutton='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.1u5cdcj116cdz314u6tnc1s77s0m].[none:overall_preference:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{78686103-F73B-4FBD-898A-62A2A13138EE}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='240'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='46'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3E654D3C-2005-41BE-BB8B-FF96E41C8113}' />
+    </window>
+  </windows>
+</workbook>

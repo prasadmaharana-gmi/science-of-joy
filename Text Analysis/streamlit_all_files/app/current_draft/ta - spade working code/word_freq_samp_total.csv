@@ -1,0 +1,61 @@
+word,frequency,sentiment_mean,product,question
+cinnamon,48,50.44,High Drizzle,Liking
+flavor,55,41.46,High Drizzle,Liking
+like,22,53.21,High Drizzle,Liking
+frost,42,28.36,High Drizzle,Liking
+roll,16,60.03,High Drizzle,Liking
+taste,26,40.59,High Drizzle,Liking
+size,24,38.74,High Drizzle,Liking
+make,5,19.03,High Drizzle,Liking
+nothing,20,3.55,High Drizzle,Liking
+little,3,41.05,High Drizzle,Liking
+cinnamon,55,47.88,Low Drizzle,Liking
+flavor,61,41.95,Low Drizzle,Liking
+like,33,64.49,Low Drizzle,Liking
+frost,24,33.63,Low Drizzle,Liking
+roll,26,59.52,Low Drizzle,Liking
+taste,35,43.98,Low Drizzle,Liking
+size,31,27.91,Low Drizzle,Liking
+make,2,0,Low Drizzle,Liking
+nothing,20,2.11,Low Drizzle,Liking
+little,5,64.36,Low Drizzle,Liking
+cinnamon,51,21.94,High Drizzle,Change
+flavor,20,21.46,High Drizzle,Change
+like,36,37.52,High Drizzle,Change
+frost,17,21.02,High Drizzle,Change
+roll,35,32.94,High Drizzle,Change
+taste,16,2.4,High Drizzle,Change
+size,15,10.29,High Drizzle,Change
+make,35,15.99,High Drizzle,Change
+nothing,9,25.81,High Drizzle,Change
+little,28,15.23,High Drizzle,Change
+cinnamon,56,18.05,Low Drizzle,Change
+flavor,20,11.72,Low Drizzle,Change
+like,45,43.5,Low Drizzle,Change
+frost,44,12.33,Low Drizzle,Change
+roll,37,25.35,Low Drizzle,Change
+taste,11,30.76,Low Drizzle,Change
+size,13,9.84,Low Drizzle,Change
+make,34,18.82,Low Drizzle,Change
+nothing,21,0,Low Drizzle,Change
+little,34,12.86,Low Drizzle,Change
+cinnamon,99,36.19,High Drizzle,All Questions
+flavor,75,31.46,High Drizzle,All Questions
+frost,59,24.69,High Drizzle,All Questions
+like,58,45.36,High Drizzle,All Questions
+little,31,28.14,High Drizzle,All Questions
+make,40,17.51,High Drizzle,All Questions
+nothing,29,14.68,High Drizzle,All Questions
+roll,51,46.49,High Drizzle,All Questions
+size,39,24.51,High Drizzle,All Questions
+taste,42,21.49,High Drizzle,All Questions
+cinnamon,111,32.96,Low Drizzle,All Questions
+flavor,81,26.83,Low Drizzle,All Questions
+frost,68,22.98,Low Drizzle,All Questions
+like,78,53.99,Low Drizzle,All Questions
+little,39,38.61,Low Drizzle,All Questions
+make,36,9.41,Low Drizzle,All Questions
+nothing,41,1.05,Low Drizzle,All Questions
+roll,63,42.44,Low Drizzle,All Questions
+size,44,18.87,Low Drizzle,All Questions
+taste,46,37.37,Low Drizzle,All Questions

@@ -1,0 +1,203 @@
+import streamlit as st
+import pandas as pd
+import plotly.express as px
+import nltk
+#from nltk import Text
+#from nltk.collocations import *
+import numpy as np
+import plotly.graph_objects as go
+
+st.set_page_config(layout="wide")
+
+global_options = ['Liking', 'Meets Expectation', 'Product Improvement', 'All Questions']
+
+#Setup side bar
+with st.sidebar:
+    selectbox_option = st.sidebar.selectbox(
+    "Choose Question",
+    ('Liking', 'Meets Expectation', 'Product Improvement', 'All Questions'))
+
+st.title("Exploring Consumer Responses")
+
+######### Top 10 words for entire dataset #######
+st.subheader("Top 10 most frequent words used - Word Frequency")
+#st.subheader("Chosen Question : "+str(selectbox_option))
+top_10_df = pd.read_csv("word_freq_samp_total.csv")
+#max_freq = top_10_df['frequency'].max()
+tot_samp1_df = top_10_df[(top_10_df['product'] == 'Yoplait OSY')  & (top_10_df['question'] == selectbox_option)]
+tot_samp2_df = top_10_df[(top_10_df['product'] == 'Chobani Smooth')  & (top_10_df['question'] == selectbox_option)]
+
+tot_fig = go.Figure(data=[
+    go.Bar(name= tot_samp1_df['product'].unique()[0], x=tot_samp1_df['word'], y=tot_samp1_df['frequency'], text=tot_samp1_df['frequency']),
+    go.Bar(name= tot_samp2_df['product'].unique()[0], x=tot_samp2_df['word'], y=tot_samp2_df['frequency'], text=tot_samp2_df['frequency']),
+])
+# Change the bar mode
+tot_fig.update_layout(barmode='group',
+xaxis={'categoryorder':'total descending'},
+yaxis=dict(
+    title='<b>Word Frequency</b>',
+    titlefont_size=20,  
+),
+title = "Chosen Question : " + str(selectbox_option),
+plot_bgcolor = "white",
+font = dict(color = "#000000", size= 16, family="sans serif", ),)
+st.plotly_chart(tot_fig, use_container_width=True)
+#################################################
+
+
+# ############# Table for for most used words
+display = top_10_df['word'].unique()
+new_arr = np.concatenate( (display, ["<All Words>"] ) )
+options = list(range(len(new_arr)))
+st.subheader("Tabular view for top 10 words with sentiment (sentiment score is indicative), choose word :")
+top_10_selected_value = st.selectbox("", options, format_func=lambda x: new_arr[x])
+
+word_choice = new_arr[top_10_selected_value]
+
+combd_df_main = pd.read_csv("combined_all_word_filtering.csv")
+
+if word_choice != '<All Words>':
+    combd_df = combd_df_main[(combd_df_main['Question'] == selectbox_option)  & (combd_df_main['lemm'].str.contains(str(word_choice)))]
+else:
+    combd_df = combd_df_main[(combd_df_main['Question'] == selectbox_option)]
+
+table_fig = go.Figure(data=[go.Table(
+columnwidth = [40,40,100,30,30],
+header=dict(values=['Sample Name','Question Type','Response', 'Response Value', 'Sentiment Score'],
+            line_color='darkslategray',
+            align='left',
+            font_size = 18),
+cells=dict(values=[combd_df['product'].astype(str), combd_df['Question'].astype(str), combd_df['Response'].astype(str), combd_df['Response value'].fillna(0).astype(int).astype(str), round(combd_df['Sentiment Score'].fillna(0)).astype(int).astype(str) ],        
+            align='left',
+            # fill = dict(color='rgb(245,245,245)'),
+            fill_color=['rgb(250,250,250)','rgb(250,250,250)','rgb(250,250,250)','rgb(250,250,250)',['rgb(128, 204, 51)' if val >= 60 else 'rgb(250,250,250)' for val in round(combd_df['Sentiment Score'].fillna(0)).astype(int)]],               
+            # fill_color=['rgb(250,250,250)','rgb(250,250,250)','rgb(250,250,250)','rgb(250,250,250)',['rgb(255, 255, 0)' if val <= -30 else 'rgb(89, 204, 51)' if val <= 60 else 'rgb(89, 204, 51)' for val in round(combd_df['Sentiment Score'].fillna(0)).astype(int)]],               
+            line_color='darkslategray',
+            font_size = 16,height=30))
+])
+
+table_fig.update_layout(
+title = "Chosen Question : " + str(selectbox_option) + " <br>Chosen Word : " + str(word_choice),
+font = dict(color = "#000000", size= 16,family="sans serif",), )
+
+st.plotly_chart(table_fig, use_container_width=True)
+#################################################
+
+
+#################################### Table for Collocation ########################################
+#Collocation etc
+st.subheader('Collocation - Words that appear frequently')
+words = st.slider('Choose number of words', 2,3)
+
+#coll_df = pd.read_csv("C:\\Users\\g654674\\OneDrive - General Mills\\Work_OneDrive\\PGI\\Text Analytics\\app\\current_draft\\combined_all_word_filtering.csv")
+coll_df = combd_df_main[(combd_df_main['Question'] == selectbox_option)]
+coll_df['lemm_clean'] = coll_df['lemm'].str.replace("\'|\[|\]|\,",'',regex=True)
+coll_df['lemm_clean'] = coll_df['lemm_clean'].astype(str)
+
+word_filter = lambda *w: str(word_choice) not in w
+
+combined_ls = []
+for id, rows in coll_df['lemm_clean'].iteritems():
+    for items in rows.split(" "):        
+        combined_ls.append(str(items))
+
+text = nltk.Text(combined_ls)
+if words == 2:
+    finder = nltk.collocations.BigramCollocationFinder.from_words(text)
+    finder.apply_freq_filter(2)
+    if word_choice != '<All Words>':
+        finder.apply_ngram_filter(word_filter)
+elif words == 3:
+    finder = nltk.collocations.TrigramCollocationFinder.from_words(text)
+    finder.apply_freq_filter(2)
+    if word_choice != '<All Words>':
+        finder.apply_ngram_filter(word_filter)
+df = pd.DataFrame(finder.ngram_fd.most_common(10), columns=['Words','Frequency'])
+df['Words'] = df['Words'].astype(str)
+df['Words'].replace(',',' -',regex=True, inplace = True)
+df['Words'].replace("\(|\'|\)",'',regex=True, inplace = True)
+
+coll_table_fig = go.Figure(data=[go.Table(
+columnwidth = [100,100],
+header=dict(values=['Words','Frequency'],        
+            align='left',
+            line_color='darkslategray',
+            font_size = 18,),
+cells=dict(values=[df['Words'].astype(str), df['Frequency'].astype(str), ],            
+            align='left',
+            fill = dict(color='rgb(250,250,250)'),
+            line_color='darkslategray',     
+            font_size = 16,
+            height = 30))
+])
+
+coll_table_fig.update_layout(
+title = "Chosen Question : " + str(selectbox_option) + " <br>Chosen Word : " + str(word_choice),
+font = dict(color = "#000000", size= 16,family="sans serif",), )
+
+st.plotly_chart(coll_table_fig, use_container_width=True)
+
+###############################
+
+#############Sentiment, Question + word wise##################
+st.subheader("Top 10 most frequent words used - Sentiment Average")
+#st.subheader("Chosen Question : " + str(selectbox_option))
+sen_tot_fig = go.Figure(data=[
+    go.Bar(name= tot_samp1_df['product'].unique()[0], x=tot_samp1_df['word'], y=tot_samp1_df['sentiment_mean'], text=round(tot_samp1_df['sentiment_mean'])),
+    go.Bar(name= tot_samp2_df['product'].unique()[0], x=tot_samp2_df['word'], y=tot_samp2_df['sentiment_mean'], text=round(tot_samp2_df['sentiment_mean'])),
+])
+# Change the bar mode
+sen_tot_fig.update_layout(barmode='group',
+xaxis={'categoryorder':'total descending'},
+yaxis=dict(
+    title='<b>Sentiment Average</b>',
+    titlefont_size=20,  
+),
+title = "Chosen Question : " + str(selectbox_option),
+plot_bgcolor = "white",
+font = dict(color = "#000000", size= 16,family="sans serif",), )
+st.plotly_chart(sen_tot_fig, use_container_width=True)
+
+
+############################# Scatter ####################
+
+output_df = pd.read_csv("output.csv")
+st.subheader('Sentiment - Question')
+
+if selectbox_option == 'Liking':
+    output_df['like_compound_scaled'] = round((output_df['like_compound'] - output_df['like_compound'].min()) / (output_df['like_compound'].max() - output_df['like_compound'].min())*100)
+    scatter_fig = px.scatter(output_df, x="like_compound", y="liking", size="like_compound_scaled", color="product_code", hover_data=['liking_free_text'])
+    scatter_fig.update_layout(plot_bgcolor = "white",
+                    font = dict(color = "#000000", size= 16,family="sans serif",),
+                    title = "Chosen Question : " + str(selectbox_option),
+                    xaxis = dict(title = "Sentiment", linecolor = "#909497"),
+                    yaxis=dict(title=f'<b>{selectbox_option}</b>',titlefont_size=20, linecolor = "#909497" ),
+                    legend=dict(title="")
+                    )    
+    scatter_fig.update_yaxes(range=[0,10], dtick=1,visible=True, showticklabels=True)  
+    st.plotly_chart(scatter_fig, use_container_width=True)
+
+elif selectbox_option == 'Meets Expectation':
+    output_df['me_compound_scaled'] = round((output_df['meets_expectation_compound'] - output_df['meets_expectation_compound'].min()) / (output_df['meets_expectation_compound'].max() - output_df['meets_expectation_compound'].min())*100)
+    scatter_fig = px.scatter(output_df, x="meets_expectation_compound", y="meets_expectation", size="me_compound_scaled", color="product_code", hover_data=['meets_expectation_free_text'])
+
+    scatter_fig.update_layout(plot_bgcolor = "white",
+                    font = dict(color = "#000000", size= 16,family="sans serif",),
+                    title = "Chosen Question : " + str(selectbox_option),
+                    xaxis = dict(title = "Sentiment", linecolor = "#909497"),
+                    yaxis=dict(title=f'<b>{selectbox_option}</b>',titlefont_size=20,  linecolor = "#909497" ),
+                    legend=dict(title="")
+                    )    
+    scatter_fig.update_yaxes(range=[0,10], dtick=1,visible=True, showticklabels=True)  
+    st.plotly_chart(scatter_fig, use_container_width=True)
+
+else :
+    st.subheader("Cannot be generated for this selection")
+
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
