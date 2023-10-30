@@ -25,18 +25,22 @@ def clear_text(Webelement):
 
 def send_upc(upc_id):
     try:
+        search_key=[]
+        search_key.append(upc_id)
+        search_key.append(upc_id[1:])
+        final_key = ' '.join(str(el) for el in search_key)
         search_box = driver.find_element(By.ID, "applied-filters-typeahead")
         # enter your name in the search box
-        search_box.send_keys(str(upc_id)+" ")
+        search_box.send_keys(final_key)
         search_box.send_keys(Keys.RETURN)  # submit the search
         time.sleep(4)
         results = driver.find_elements(By.CSS_SELECTOR, "#root > div > div.Layout__Container-sc-12wjlu5-0.ksgQJp > div.Layout__Main-sc-12wjlu5-1.gUqgKv > div > div > div.Card-sc-1opdot8-0.styled__MainCard-eg58na-3.ccXGR > div.ProductGrid__Grid-gpbxew-0.fVviLt > a")
         
     except:
         results = []
-    if len(results) < 1 and len(upc_id) >= 11:  # retry with one less digit from the start
-        results = send_upc(upc_id[1:])
-    time.sleep(1)
+    # if len(results) < 1 and len(upc_id) >= 11:  # retry with one less digit from the start
+    #     results = send_upc(upc_id[1:])
+    # time.sleep(1)
     clear_text(search_box)
     return results
 
@@ -53,12 +57,14 @@ def data_formatter(element):
         title=title.replace("oz","OUNCE")
     return upc_card,title        
             
-
+    
+    
 # Read the input file
+root_folder=r'C:\Users\G670813\OneDrive - General Mills\Desktop\upc_mapping\UPC_mapping'
 
-input_file = pd.read_excel(r'C:\Users\G670813\OneDrive - General Mills\Desktop\upc_mapping\upc_mapping_test\upc_list.xlsx',
+input_file = pd.read_excel(root_folder+'/upc_list.xlsx',
                            sheet_name='Sheet1', dtype={"UPC": "string"})
-# initialize browser
+#initialize browser
 driver = webdriver.Chrome()
 driver.get("https://app.labelinsight.com/explore-specs/search")
 time.sleep(3)
@@ -70,31 +76,43 @@ submit = driver.find_element(By.XPATH, '//*[@id="root"]/div/div[3]/div/div/main/
 submit.click()
 time.sleep(5)
 
+
+
 #**********************************************************************
 # make sure to debug this point for login authentication
 #**********************************************************************
             
 upc_count=len(input_file)            
 output = pd.DataFrame(columns=['Connect_UPC', 'Connect_Desc','NIQ_LI_UPC', 'NIQ_desc'])
+
+#print start time 
 start_time=print_time()
+file_name="/Mapped UPCs_"+str(start_time)[:-16]+".xlsx"
+
+
+#print initial stats
 print("Total UPCs Found: {}".format(upc_count))
 print("Start Time of Mapping: {}".format(start_time.time()))
+
+
 for index, row in input_file.iterrows():
     search = send_upc(row['UPC'])
     if len(search) < 1:
         new_upc,title = "NA","NA"
 
     elif len(search) == 1:
-        print("UPC found")
         new_upc,title = data_formatter(search)
     else:
         ("Multiple UPCs found. Conflict.")
-        new_upc,title= "Conflict"
+        new_upc,title= "Conflict","Conflict"
     output = output.append({'Connect_UPC': row['UPC'], 'Connect_Desc': row['ITEM'],'NIQ_LI_UPC': new_upc,'NIQ_desc':title}, ignore_index=True)
-output.to_excel(r'C:\Users\G670813\OneDrive - General Mills\Desktop\upc_mapping\upc_mapping_test\Mapped UPCs.xlsx')
+    if len(output)%100==0:
+        print("Completed {} rows. Out of {}".format(len(output),upc_count))
+output.to_excel(root_folder+file_name)
+
 end_time=print_time()
 print("End Time of Mapping: {}".format(end_time.time()))
 delta=end_time-start_time
 print("Total Time Elapsed: {}".format(delta.total_seconds()))
-print("Average time per UPC scan: {} ").format(delta.total_seconds()/upc_count)
+print("Average time per UPC scan: {}".format(delta.total_seconds()/upc_count))
 driver.quit()
